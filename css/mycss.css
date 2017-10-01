@@ -1,12 +1,6 @@
 
 /* main roles */
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
 
-}
 
 body {
   padding-top: 60px;
@@ -64,3 +58,46 @@ body {
  a:focus, #myslide .carousel-indicators .active, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .option-box .gear-check {
     background-color: #e41b17;
 }
+
+/* start header */
+.header .head-img {
+  background-image: url("../imgs/head.jpeg");
+  height:600px;
+  width: 100%;
+  background-size: cover;
+}
+.header .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%
+}
+
+.header .cont {
+  margin: 200px auto;
+  color: #000
+}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0);
+
+}
+.jumbotron h1 {
+  color: #e41b17;
+  margin-bottom: 100px
+}
+
+.jumbotron i {
+  color: #fff;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+.jumbotron i:hover {
+  color: #e41b17;
+  margin-top: 10px
+}
+.jumbotron p {
+  font-size: 30px;
+  color: #fff
+}
+/* end header */
