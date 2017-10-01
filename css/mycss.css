@@ -13,6 +13,54 @@ body {
   height: 3000px
 }
 
-h1 {
-  color: red
+/* min navbar */
+.navbar {
+  min-height: 61px;
+  z-index: 9999
+}
+
+/* navbar link*/
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #BBB;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.navbar-inverse .navbar-brand{
+  color: #bbb;
+  font-size: 30px;
+  line-height: 40px
+}
+
+/* dropdown-menu */
+.dropdown-menu {
+  background-color: #333;
+  min-width: 200px;
+}
+.dropdown-menu li a {
+  color: #fff;
+  padding: 6px 20px;
+  transition: padding .5s ease;
+  -webkit-transition: padding .5s ease;
+  -moz-transition: padding .5s ease;
+  -o-transition: padding .5s ease;
+}
+/* dropdown-menu-hover */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff;
+  padding-left: 25px
+}
+
+/* navbar-toggle */
+
+.navbar-inverse .navbar-toggle {
+  margin-top: 15px
+}
+.navbar-inverse .navbar-nav > .active >
+ a, .navbar-inverse .navbar-nav > .active >
+ a:hover, .navbar-inverse .navbar-nav > .active >
+ a:focus, #myslide .carousel-indicators .active, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .option-box .gear-check {
+    background-color: #e41b17;
 }
