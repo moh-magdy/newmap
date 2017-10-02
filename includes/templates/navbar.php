@@ -1,3 +1,11 @@
+<?php
+/*
+=================================================================================
+======================================== navBar page ============================
+=================================================================================
+*/    
+?>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container"><!-- /.container -->
 
@@ -24,12 +32,12 @@
                   <li><a href="#">أتصل بنا</a></li>                         
                 </ul>
             </li>
-            <li><a href="#">المزيد</a></li>
-            <li><a href="#">برمجه تطبيقات الموبايل</a></li>
-            <li><a href="#">برمجه تطبيقات الدسك توب</a></li>
-            <li><a href="#">تصميم الرسومات</a></li>
-            <li><a href="#">تصميم ويب</a></li>
-            <li><a href="#">برمجه ويب <span class="sr-only">(current)</span></a></li>
+            <li><a href="categories.php?mod=More">المزيد</a></li>
+            <li><a href="categories.php?mod=Mobile">برمجه تطبيقات الموبايل</a></li>
+            <li><a href="categories.php?mod=programmingDesktop">برمجه تطبيقات الدسك توب</a></li>
+            <li><a href="categories.php?mod=imgDesign">تصميم الرسومات</a></li>
+            <li><a href="categories.php?mod=webDesign">تصميم ويب</a></li>
+            <li><a href="categories.php?mod=programmingWeb">برمجه ويب <span class="sr-only">(current)</span></a></li>
           </ul>
 
         </div><!-- /.navbar-collapse -->
