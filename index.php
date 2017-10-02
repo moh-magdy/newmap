@@ -1,4 +1,10 @@
-<?php include 'init.php' ?>
+<!-- Include Header & navBar  -->
+<?php
+    ob_start();
+    session_start();
+    include 'init.php';
+ ?>
+
 <!-- start head -->
     <div class="header text-center">
       <div class="head-img">
@@ -93,6 +99,6 @@
 
     <!-- start our site seactions -->
 
-    
+
 <!-- Include Footer -->
-<?php include $tpl . 'footer.php' ?>
+<?php include $tpl . 'footer.php'; ob_end_flush(); ?>
