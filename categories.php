@@ -60,14 +60,14 @@
                 <h1>welcome Mobile</h1>
 
 
-<?php
+<?php/*
                     
                 //###################### More Page ##################6
         } elseif ($mod == 'More') {?>
 
                 <h1>welcome imgDesign</h1>
 
-<?php
+<?php*/
         } else {
         header('Location: index.php'); //Redirect To index Page
         exit();
