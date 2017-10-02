@@ -10,7 +10,7 @@ body {
 /* min navbar */
 .navbar {
   min-height: 61px;
-  z-index: 9999
+  
 }
 
 /* navbar link*/
@@ -63,7 +63,7 @@ body {
 /* start header */
 .header .head-img {
   background-image: url("../imgs/head.jpeg");
-  height:600px;
+  height:800px;
   width: 100%;
   background-size: cover;
 }
