@@ -26,14 +26,16 @@ body {
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
 }
+.navbar-inverse .navbar-nav > li > a:focus, /* ممكن تتزال */
 .navbar-inverse .navbar-nav > li > a:hover {
   background-color: #e41b17;
 }
 /* navbar brand */
 .navbar-inverse .navbar-brand{
   color: #bbb;
-  font-size: 30px;
-  line-height: 40px
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: bold
 }
 
 /* dropdown-menu */
