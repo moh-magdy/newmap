@@ -17,7 +17,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand navbar-left" href="#">MAPLINK</a>
+          <a class="navbar-brand navbar-left" href="index.php">MAPLINK</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
