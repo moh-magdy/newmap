@@ -1,3 +1,11 @@
+<?php
+/*
+=================================================================================
+======================================== navBar page ============================
+=================================================================================
+*/    
+?>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container"><!-- /.container -->
 
@@ -9,7 +17,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+<<<<<<< HEAD
           <a class="navbar-brand " href="#">مابلينك</a>
+=======
+          <a class="navbar-brand navbar-left" href="index.php">MAPLINK</a>
+>>>>>>> 692ba9ef4b778fb0c9691257b17b3f7c9bad3069
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,11 +36,20 @@
                   <li><a href="#">أتصل بنا</a></li>                         
                 </ul>
             </li>
+<<<<<<< HEAD
             <li><a href="#">برمجه تطبيقات الموبايل</a></li>
             <li><a href="#">برمجه تطبيقات الدسك توب</a></li>
             <li><a href="#">تصميم الرسومات</a></li>
             <li><a href="#">تصميم ويب</a></li>
             <li><a href="#">برمجه ويب <span class="sr-only">(current)</span></a></li>
+=======
+            <li><a href="categories.php?mod=More">المزيد</a></li>
+            <li><a href="categories.php?mod=Mobile">برمجه تطبيقات الموبايل</a></li>
+            <li><a href="categories.php?mod=programmingDesktop">برمجه تطبيقات الدسك توب</a></li>
+            <li><a href="categories.php?mod=imgDesign">تصميم الرسومات</a></li>
+            <li><a href="categories.php?mod=webDesign">تصميم ويب</a></li>
+            <li><a href="categories.php?mod=programmingWeb">برمجه ويب <span class="sr-only">(current)</span></a></li>
+>>>>>>> 692ba9ef4b778fb0c9691257b17b3f7c9bad3069
           </ul>
 
         </div><!-- /.navbar-collapse -->

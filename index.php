@@ -1,7 +1,13 @@
-<!-- Include Header & navBar  -->
 <?php
+/*
+=================================================================================
+====================================== Body page ================================
+=================================================================================
+*/
     ob_start();
     session_start();
+
+    //Include Header & navBar 
     include 'init.php';
  ?>
 
@@ -101,4 +107,7 @@
 
 
 <!-- Include Footer -->
-<?php include $tpl . 'footer.php'; ob_end_flush(); ?>
+<?php 
+  include $tpl . 'footer.php'; 
+  ob_end_flush(); 
+?>
