@@ -98,3 +98,49 @@ body {
   color: #fff
 }
 /* end header */
+
+/* start about seaction */
+.about {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about h2 {
+  font-size: 45px;
+  color: #e41b17
+}
+.about p {
+  font-size: 30px;
+  padding-top: 30px;
+  color: #666
+}
+/* end about section */
+
+/* start our site section */
+.site-sec {
+  background-color: #eee;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+.site-sec  .thumbnail {
+  margin-top: 30px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+.site-sec  a {
+  text-decoration: none;
+}
+.site-sec  .thumbnail:hover {
+  box-shadow: 5px 5px 10px #999,
+             -5px -5px 20px #999;
+  transform: scale(1.1,1.1);
+
+}
+.site-sec  .thumbnail img {
+  width: 100%
+}
+.site-sec h3 {
+  color: #e41b17;
+  font-weight: bold;
+}
