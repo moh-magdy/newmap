@@ -1,6 +1,6 @@
 
 /* main roles */
-
+*{box-sizing: border-box}
 
 body {
   padding-top: 60px;
@@ -20,6 +20,14 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 18px;
+  margin-left: 5px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #e41b17;
 }
 /* navbar brand */
 .navbar-inverse .navbar-brand{
@@ -36,10 +44,10 @@ body {
 .dropdown-menu li a {
   color: #fff;
   padding: 6px 20px;
-  transition: padding .5s ease;
-  -webkit-transition: padding .5s ease;
-  -moz-transition: padding .5s ease;
-  -o-transition: padding .5s ease;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 /* dropdown-menu-hover */
 .dropdown-menu > li > a:hover,
@@ -53,11 +61,17 @@ body {
 .navbar-inverse .navbar-toggle {
   margin-top: 15px
 }
-.navbar-inverse .navbar-nav > .active >
- a, .navbar-inverse .navbar-nav > .active >
- a:hover, .navbar-inverse .navbar-nav > .active >
- a:focus, #myslide .carousel-indicators .active, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .option-box .gear-check {
-    background-color: #e41b17;
+.dropdown-menu > li > a, .dropdown-menu > li > a {
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.navbar-inverse .navbar-nav > .active >a,
+.navbar-inverse .navbar-nav > .active >a:hover,
+.navbar-inverse .navbar-nav > .active >a:focus,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+ background-color: #e41b17;
 }
 
 /* start header */
