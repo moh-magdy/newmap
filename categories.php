@@ -9,20 +9,26 @@
     session_start();
         
         include 'init.php';
-        $mod = isset($_GET['mod']) ? $_GET['mod'] : 'Manage';
+        $mod = isset($_GET['mod']) ? $_GET['mod'] : 'Error';
 
 
-        // Start Manage Page
+        // Start  Page
 
-        if($mod == 'Manage') { //Manage  Page
+
+                // ############# Error Page ####################0
+        if($mod == 'Error') { ?>
             
-          echo 'Welcome Manage';
+         
+                <h1>Welcome Error Page</h1>
+
+
+<?php
                 // ############# imgDesign Page ####################1
         } elseif($mod == 'imgDesign') { ?>
 
 
 
-                    <h1>welcome imgDesign</h1>
+                <h1>welcome imgDesign</h1>
 
 <?php
                 // ############# webDesign Page ####################2
@@ -31,7 +37,7 @@
 
 
 
-                    <h1>welcome webDesign</h1>
+                <h1>welcome webDesign</h1>
 
 
 <?php
@@ -40,7 +46,7 @@
 
 
 
-                    <h1>welcome programmingWeb</h1>
+                <h1>welcome programmingWeb</h1>
 
 
 
@@ -49,7 +55,7 @@
         } elseif($mod == 'programmingDesktop') {?>
 
 
-                    <h1>welcome programmingDesktop</h1>
+                <h1>welcome programmingDesktop</h1>
 
 
 
@@ -60,18 +66,34 @@
                 <h1>welcome Mobile</h1>
 
 
-<?php/*
+<?php
                     
                 //###################### More Page ##################6
         } elseif ($mod == 'More') {?>
 
-                <h1>welcome imgDesign</h1>
+                <h1>welcome More</h1>
 
-<?php*/
+<?php
+                //############## service provider Page ###############7
+        } elseif ($mod == 'serviceProvider') {?>
+
+                <h1>welcome service provider</h1>
+
+<?php
+                //###################### call us Page ################8
+        } elseif ($mod == 'callUs') {?>
+
+                <h1>welcome call us</h1>
+
+<?php
         } else {
+
         header('Location: index.php'); //Redirect To index Page
         exit();
+
     }
+    
+//End Page
 
         include $tpl . "footer.php";
         

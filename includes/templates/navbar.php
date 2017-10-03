@@ -27,9 +27,9 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">..المزيد<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">مزود الخدمة</a></li>
+                  <li><a href="categories.php?mod=serviceProvider">مزود الخدمة</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">أتصل بنا</a></li>                         
+                  <li><a href="categories.php?mod=callUs">أتصل بنا</a></li>                         
                 </ul>
             </li>
             <li><a href="categories.php?mod=Mobile">برمجه تطبيقات الموبايل</a></li>
