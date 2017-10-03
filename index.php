@@ -46,7 +46,7 @@
         <div class="row">
 
           <div class="col-sm-6 col-md-4">
-          <a href="#"><div class="thumbnail">
+          <a href="categories.php?mod=programmingWeb"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
                 <h3>برمجه ويب</h3>
@@ -55,7 +55,7 @@
           </div>
 
           <div class="col-sm-6 col-md-4">
-          <a href="#"><div class="thumbnail">
+          <a href="categories.php?mod=imgDesign"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
                 <h3>تصميم الرسومات</h3>
@@ -64,7 +64,7 @@
           </div>
 
           <div class="col-sm-6 col-md-4">
-          <a href="#"><div class="thumbnail">
+          <a href="categories.php?mod=webDesign"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
                 <h3>تصميم ويب</h3>
@@ -73,7 +73,7 @@
           </div>
 
           <div class="col-sm-6 col-md-4">
-          <a href="#"><div class="thumbnail">
+          <a href="categories.php?mod=More"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
                 <h3>..المزيد</h3>
@@ -82,7 +82,7 @@
           </div>
 
           <div class="col-sm-6 col-md-4">
-          <a href="#"><div class="thumbnail">
+          <a href="categories.php?mod=Mobile"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
                 <h3>برمجه تطبيقات الموبايل</h3>
@@ -91,7 +91,7 @@
           </div>
 
           <div class="col-sm-6 col-md-4">
-          <a href="#"><div class="thumbnail">
+          <a href="categories.php?mod=programmingDesktop"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
                 <h3>برمجه تطبيقات الدسك توب</h3>
