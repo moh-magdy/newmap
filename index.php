@@ -7,7 +7,7 @@
     ob_start();
     session_start();
 
-    //Include Header & navBar 
+    //Include Header & navBar
     include 'init.php';
  ?>
 
@@ -18,7 +18,10 @@
             <div class="jumbotron">
               <h1>مابلينك طريقك للعالم</h1>
               <p class="lead">أنتقل مباشرة لما تريد</p>
+              <a data-scroll href="#scroll">
               <p><i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i></p>
+                </a>
+
             </div>
           </div>
       </div>
@@ -29,7 +32,7 @@
     <section class="about">
       <div class="container">
         <div class="cont text-center">
-          <h2>هدفنا</h2>
+          <h2 id="scroll">هدفنا</h2>
           <p class="lead">
             يهدف الموقع ليكون المرجع الأول والأخير لكي تجد ضالتك من أفضل المواقع ضمن مجالك ونأمل أن تشاركونا بهذه التجرية بأضافة محتوى للمرجع
           </p>
@@ -107,7 +110,7 @@
 
 
 <!-- Include Footer -->
-<?php 
-  include $tpl . 'footer.php'; 
-  ob_end_flush(); 
+<?php
+  include $tpl . 'footer.php';
+  ob_end_flush();
 ?>

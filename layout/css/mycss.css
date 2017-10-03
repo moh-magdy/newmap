@@ -4,13 +4,13 @@
 
 body {
   padding-top: 60px;
-  height: 3000px
+
 }
 
 /* main navbar */
 .navbar {
   min-height: 61px;
-  
+
 }
 
 /* navbar link*/
@@ -147,9 +147,15 @@ body {
 .site-sec  a {
   text-decoration: none;
 }
+.site-sec  .thumbnail{
+box-shadow: 5px 5px 10px #999,
+           -5px -5px 10px #999;
+
+
+}
 .site-sec  .thumbnail:hover {
-  box-shadow: 5px 5px 10px #999,
-             -5px -5px 20px #999;
+  box-shadow: 10px 10px 20px #999,
+             -10px -10px 20px #999;
   transform: scale(1.1,1.1);
 
 }
@@ -159,4 +165,17 @@ body {
 .site-sec h3 {
   color: #e41b17;
   font-weight: bold;
+}
+/* end our site section */
+
+/* start footer section */
+
+.footer {
+  min-height: 200px;
+  background-color: #222;
+  border-color: #080808;
+  border-width: 0 0 1px;
+  border: 1px solid transparent;
+  color: #bbb;
+  box-shadow:  0 -10px 20px #999
 }
