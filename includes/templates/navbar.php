@@ -32,8 +32,8 @@
                   <li><a href="categories.php?mod=callUs">أتصل بنا</a></li>                         
                 </ul>
             </li>
-            <li><a href="categories.php?mod=Mobile">برمجه تطبيقات الموبايل</a></li>
-            <li><a href="categories.php?mod=programmingDesktop">برمجه تطبيقات الدسك توب</a></li>
+            <li><a href="categories.php?mod=Mobile">ب.ت الموبايل</a></li>
+            <li><a href="categories.php?mod=programmingDesktop">ب.ت الدسك توب</a></li>
             <li><a href="categories.php?mod=imgDesign">تصميم الرسومات</a></li>
             <li><a href="categories.php?mod=webDesign">تصميم ويب</a></li>
             <li><a href="categories.php?mod=programmingWeb">برمجه ويب <span class="sr-only">(current)</span></a></li>
