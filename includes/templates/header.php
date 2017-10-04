@@ -7,6 +7,7 @@
     <!-- device-width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>maplink</title>
+    <link rel="stylesheet" href="<?php echo $css ?>sweetalert2.min.css"/>
     <link rel="stylesheet" href="<?php echo $css ?>bootstrap.css" />
     <link rel="stylesheet" href="<?php echo $css ?>font-awesome.min.css" />
     <link rel="stylesheet" href="<?php echo $css ?>mycss.css" />

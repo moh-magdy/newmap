@@ -12,6 +12,8 @@ body {
   min-height: 61px;
 
 }
+/* Alert Button*/
+.swal2-confirm, .swal2-styled{display: none;}
 
 /* navbar link*/
 

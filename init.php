@@ -7,16 +7,15 @@
 
 
 //for contact
-/*include 'Admin/contact.php';*/
+include 'Admin/contact.php';
 
 //Routes
-
+$func    =   "includes/functions/";
 $tpl    =   "includes/templates/";
 $css    =   "layout/css/";
 $js     =   "layout/js/";
 
 //Include The Important Files
-/*include     $func   .   "function.php";*/
+include     $func   .   "function.php";
 include     $tpl    .   "header.php";
-include     $tpl    .   "navbar.php";
-
+if(!isset($noNavar)) { include  $tpl . "navbar.php";}

@@ -117,18 +117,19 @@
 
               <h2>شاركنا بموقع او رابط</h2>
 
-              <form action="" method="post"></form> 
+              <form action="insertForms.php?mod=insertWeb" method="POST"> 
 
                 <div class="form-group">
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="اسم الموقع">
+                  <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="اسم الموقع">
+                  <input type="hidden" name="cat_id" class="form-control" value="1000">
                 </div>
 
                 <div class="form-group">
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="رابط الموقع">
+                  <input type="text" name="domain" class="form-control" id="formGroupExampleInput2" placeholder="رابط الموقع">
                 </div>
 
                 <div class="form-group">
-                  <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="نبذة عن الموقع"></textarea>
+                  <textarea name="description" class="form-control" id="exampleTextarea" rows="3" placeholder="نبذة عن الموقع"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-danger">مشاركة</button>
@@ -139,6 +140,8 @@
         </div>
       </div>
     </section>
+
+
     <section class="add-comment">
       <div class="container">
         <div class="row">
@@ -152,14 +155,14 @@
               <div class="smi-pull">
                <h2>التعليقات</h2>
 
-                <form action="" method="post"></form> 
+                <form action="insertForms.php?mod=insertComment" method="post"> 
 
                   <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="الأسم">
+                    <input type="text" name="name" class="form-control" id="formGroupExampleInput3" placeholder="الأسم">
                   </div>
 
                   <div class="form-group">
-                    <textarea class="form-control" id="exampleTextarea2" rows="3" placeholder="نبذة عن الموقع"></textarea>
+                    <textarea class="form-control" name="comment" id="exampleTextarea2" rows="3" placeholder=""></textarea>
                   </div>
 
                   <button type="submit" class="btn btn-danger">مشاركة</button>
