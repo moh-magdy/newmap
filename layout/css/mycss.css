@@ -127,7 +127,7 @@ body {
 .about p {
   font-size: 30px;
   padding-top: 30px;
-  color: #666
+  color: #06373B
 }
 /* end about section */
 
@@ -154,25 +154,88 @@ box-shadow: 5px 5px 10px #999,
 
 }
 .site-sec  .thumbnail:hover {
-  box-shadow: 10px 10px 20px #999,
-             -10px -10px 20px #999;
+  box-shadow: 10px 10px 15px #999,
+             -10px -10px 15px #999;
   transform: scale(1.1,1.1);
 
+}
+.site-sec  .thumbnail:hover h3 {
+  color: #e41b17
 }
 .site-sec  .thumbnail img {
   width: 100%
 }
 .site-sec h3 {
-  color: #e41b17;
+  color: #06373B;
   font-weight: bold;
+  transition: all .75s ease-in-out;
+  -webkit-transition: all .75s ease-in-out;
+  -moz-transition: all .75s ease-in-out;
+  -o-transition: all .75s ease-in-out;
 }
 /* end our site section */
+
+/* start form-1 section */
+
+.add-site  {
+  margin-top: 40px;
+  margin-bottom: 40px
+}
+.add-comment .img img ,
+.add-site .img img {
+  width: 100%
+}
+
+.add-site .form .pull-right {
+  text-align: center;
+  width: 100%
+}
+.add-comment .form h2,
+.add-site .form h2 {
+  color: #06373B
+}
+.add-comment .form .form-control,
+.add-site .form .form-control {
+  text-align: right;
+  font-size: 22px;
+  padding:  20px
+}
+.add-comment .form textarea,
+.add-site .form textarea {
+  min-height: 180px
+}
+.add-comment .form button,
+.add-site .form button {
+  padding: 10px;
+  width: 150px;
+  font-weight: bold
+}
+.add-comment {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #eee
+}
+.add-comment .smi-pull {
+  text-align: center;
+  width: 100%
+}
+.add-comment .cont {
+  width: 100%
+}
+/* end form-1 section */
+
+
+
+
+
+
+
 
 /* start footer section */
 
 .footer {
   min-height: 200px;
-  background-color: #222;
+  background-color: #06373B;
   border-color: #080808;
   border-width: 0 0 1px;
   border: 1px solid transparent;
