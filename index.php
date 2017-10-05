@@ -105,6 +105,9 @@
         </div>
       </div>
     </section>
+    <!-- end our site seactions -->
+
+    <!-- start forms seactions -->
 
     <section class="add-site">
       <div class="container">
@@ -117,7 +120,7 @@
 
               <h2>شاركنا بموقع او رابط</h2>
 
-              <form action="insertForms.php?mod=insertWeb" method="POST"> 
+              <form action="insertForms.php?mod=insertWeb" method="POST">
 
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="اسم الموقع">
@@ -134,48 +137,48 @@
 
                 <button type="submit" class="btn btn-danger">مشاركة</button>
 
-              </form>     
-            </div>      
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-
+      <!--!!!!! 2th form !!!!! -->
     <section class="add-comment">
       <div class="container">
         <div class="row">
-        <div class="cont">       
-              <div class="img col-xs-12 col-md-6">
-                <img src="http://via.placeholder.com/400x300" alt="">
-              </div>
-            </div>   
-          
+
             <div class="form col-xs-12 col-md-6">
               <div class="smi-pull">
-               <h2>التعليقات</h2>
+               <h2>شاركنا بتعليقك</h2>
 
-                <form action="insertForms.php?mod=insertComment" method="post"> 
+                <form action="insertForms.php?mod=insertComment" method="post">
 
                   <div class="form-group">
                     <input type="text" name="name" class="form-control" id="formGroupExampleInput3" placeholder="الأسم">
                   </div>
 
                   <div class="form-group">
-                    <textarea class="form-control" name="comment" id="exampleTextarea2" rows="3" placeholder=""></textarea>
+                    <textarea class="form-control" name="comment" id="exampleTextarea2" rows="3" placeholder="تعليقك هنا"></textarea>
                   </div>
 
                   <button type="submit" class="btn btn-danger">مشاركة</button>
                 </div>
-                </form>    
+                </form>
               </div>
-            </div> 
-                 
+              <div class="cont">
+                    <div class="img col-xs-12 col-md-6">
+                      <img src="http://via.placeholder.com/400x300" alt="">
+                    </div>
+                  </div>
+            </div>
+
         </div>
       </div>
     </section>
 
-    <!-- start our site seactions -->
+    <!-- end forms seactions -->
 
 
 <!-- Include Footer -->

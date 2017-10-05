@@ -6,9 +6,36 @@
 */
 ?>
     <div class="footer text-center">
-        <h3>footer <header>
+      <div class="container">
+        <div class="row">
 
-        </header></h3>
+          <div class="col-xs-12 col-md-6">
+            <form>
+              <h2>ابق علي تواصل</h2>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="البريد الالكتروني">
+              </div>
+
+              <button type="submit" class="btn btn-default btn-danger">أرسال</button>
+            </form>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <h2>تابعنا</h2>
+            <div class="icons">
+              <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+              <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+              <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+              <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+              <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div> <!-- row -->
+
+      </div> <!-- container -->
+    </div>
+    <div class="mark text-center">
+      tread mark
     </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
