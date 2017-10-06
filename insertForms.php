@@ -163,6 +163,58 @@
               
         
             
+    } elseif ($mod == 'insertEmail') { // Insert Email Page
+            
+            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                
+                echo "<div class='container'>";
+    
+                $email   = $_POST['email'];
+                $emailFilter = filter_var($email,FILTER_SANITIZE_EMAIL);
+
+               $formErrors = array();
+               
+               if (empty($email)) {
+                   $formErrors[] = "<script>swal('Oops...', 'Email field is empty', 'error');</script>";
+               }
+
+               foreach ($formErrors as $error ) {
+                   $theMsg =  $error;
+                    redirectHome($theMsg, 'back');
+               }
+
+               if(empty($formErrors)) {
+                                  
+                   $stmt = $contant->prepare("INSERT INTO email(Email, Email_date)
+                                                     VALUES(:zemail, now())");
+                   $stmt->execute(array('zemail' => $emailFilter));
+
+                   if ($stmt->rowCount() == 0){
+                       $theMsg = "<script>swal('Warning...', 'Not Record Updated', 'error');</script>";
+                       redirectHome($theMsg, 'Admin');
+                   } else {
+                        
+                       $theMsg = "<script>swal('Good job', 'Record Updated', 'success');</script>";
+                       redirectHome($theMsg, 'Admin');
+                   }
+
+            }
+
+           } else {
+
+               $theMsg = "<script>swal('Warning...', 'Sorry You Cant Browse This Page Directly', 'error');</script>";
+               redirectHome($theMsg);
+                             
+           }
+                          
+           echo "</div>";
+                  
+               
+    
+    
+    
+    
+    
     } else {
         header('Location: index.php'); //Redirect To index Page
         exit();
