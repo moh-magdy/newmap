@@ -7,7 +7,7 @@
     ob_start(); // Headers Sent
 
     session_start();
-        
+
         include 'init.php';
         $mod = isset($_GET['mod']) ? $_GET['mod'] : 'Error';
 
@@ -17,8 +17,8 @@
 
                 // ############# Error Page ####################0
         if($mod == 'Error') { ?>
-            
-         
+
+
                 <h1>Welcome Error Page</h1>
 
 
@@ -26,14 +26,32 @@
                 // ############# imgDesign Page ####################1
         } elseif($mod == 'imgDesign') { ?>
 
+          <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".green">Green</button>
+            <button type="button" class="control" data-filter=".blue">Blue</button>
+            <button type="button" class="control" data-filter=".pink">Pink</button>
+            <button type="button" class="control" data-filter="none">None</button>
 
+            <button type="button" class="control" data-sort="default:asc">Asc</button>
+            <button type="button" class="control" data-sort="default:desc">Desc</button>
+        </div>
 
-                <h1>welcome imgDesign</h1>
+          <div class="container up" id="container">
+            <div class="mix green"><img src="http://via.placeholder.com/400x300" alt=""></div>
+            <div class="mix green"><img src="http://via.placeholder.com/400x300" alt=""></div>
+            <div class="mix blue"><img src="http://via.placeholder.com/400x300" alt=""></div>
+            <div class="mix pink"><img src="http://via.placeholder.com/400x300" alt=""></div>
+            <div class="mix green"><img src="http://via.placeholder.com/400x300" alt=""></div>
+            <div class="mix blue"><img src="http://via.placeholder.com/400x300" alt=""></div>
+            <div class="mix pink"><img src="http://via.placeholder.com/400x300" alt=""></div>
+            <div class="mix blue"><img src="http://via.placeholder.com/400x300" alt=""></div>
+          </div>
+          
 
 <?php
                 // ############# webDesign Page ####################2
         } elseif ($mod == 'webDesign') { ?>
-
 
 
 
@@ -67,7 +85,7 @@
 
 
 <?php
-                    
+
                 //###################### More Page ##################6
         } elseif ($mod == 'More') {?>
 
@@ -92,9 +110,9 @@
         exit();
 
     }
-    
+
 //End Page
 
         include $tpl . "footer.php";
-        
+
     ob_end_flush(); // Headers Sent

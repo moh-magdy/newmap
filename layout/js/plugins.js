@@ -1,6 +1,3 @@
-
-
-
 var scroll = new SmoothScroll('a[href*="#"]', {
 
 	// Speed & Easing
@@ -9,3 +6,5 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	easing: 'easeInOutCubic', // Easing pattern to use
 
 });
+var containerEl = document.querySelector('#container');
+var mixer = mixitup(containerEl);
