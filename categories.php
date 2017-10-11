@@ -37,34 +37,130 @@
             <button type="button" class="control" data-sort="default:desc">Desc</button>
         </div>
 
-          <div class="container up" id="container">
-            <div class="mix green"><img src="http://via.placeholder.com/400x300" alt=""></div>
-            <div class="mix green"><img src="http://via.placeholder.com/400x300" alt=""></div>
-            <div class="mix blue"><img src="http://via.placeholder.com/400x300" alt=""></div>
-            <div class="mix pink"><img src="http://via.placeholder.com/400x300" alt=""></div>
-            <div class="mix green"><img src="http://via.placeholder.com/400x300" alt=""></div>
-            <div class="mix blue"><img src="http://via.placeholder.com/400x300" alt=""></div>
-            <div class="mix pink"><img src="http://via.placeholder.com/400x300" alt=""></div>
-            <div class="mix blue"><img src="http://via.placeholder.com/400x300" alt=""></div>
+          <div class="container " id="container">
+            <div class="row">
+
+              <div class="mix col-sm-6 col-md-4 green">
+                  <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 green">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 pink">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 green">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 pink">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+
+            </div>
           </div>
-          
+
 
 <?php
                 // ############# webDesign Page ####################2
         } elseif ($mod == 'webDesign') { ?>
 
+          <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".green">Green</button>
+            <button type="button" class="control" data-filter=".blue">Blue</button>
+            <button type="button" class="control" data-filter=".pink">Pink</button>
+            <button type="button" class="control" data-filter="none">None</button>
 
+            <button type="button" class="control" data-sort="default:asc">Asc</button>
+            <button type="button" class="control" data-sort="default:desc">Desc</button>
+        </div>
 
-                <h1>welcome webDesign</h1>
+          <div class="container " id="container">
+            <div class="row">
+
+              <div class="mix col-sm-6 col-md-4 green">
+                  <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 green">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 pink">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 green">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 pink">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+
+            </div>
+          </div>
 
 
 <?php
                 // #################### programmingWeb Page #########3
         } elseif ($mod == 'programmingWeb') {?>
 
+          <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".green">Green</button>
+            <button type="button" class="control" data-filter=".blue">Blue</button>
+            <button type="button" class="control" data-filter=".pink">Pink</button>
+            <button type="button" class="control" data-filter="none">None</button>
 
+            <button type="button" class="control" data-sort="default:asc">Asc</button>
+            <button type="button" class="control" data-sort="default:desc">Desc</button>
+        </div>
 
-                <h1>welcome programmingWeb</h1>
+          <div class="container " id="container">
+            <div class="row">
+
+              <div class="mix col-sm-6 col-md-4 green">
+                  <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 green">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 pink">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 green">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 pink">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+              <div class="mix col-sm-6 col-md-4 blue">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+              </div>
+
+            </div>
+          </div>
 
 
 

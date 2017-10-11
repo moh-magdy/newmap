@@ -260,13 +260,8 @@ box-shadow: 5px 5px 10px #999,
   height: 30px;
   background-color: rgba(0, 0, 0, .9);
 }
-.up {
-  overflow: hidden;
-}
-.up div {
-  overflow: hidden;
-  width: 300px;
-  height: 200px;
-  float: left;
-  margin: 10px
+
+#container .mix {
+  margin-top: 10px;
+  margin-bottom: 10px
 }
