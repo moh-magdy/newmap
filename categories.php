@@ -26,141 +26,364 @@
                 // ############# imgDesign Page ####################1
         } elseif($mod == 'imgDesign') { ?>
 
-          <div class="controls">
-            <button type="button" class="control" data-filter="all">All</button>
-            <button type="button" class="control" data-filter=".green">Green</button>
-            <button type="button" class="control" data-filter=".blue">Blue</button>
-            <button type="button" class="control" data-filter=".pink">Pink</button>
-            <button type="button" class="control" data-filter="none">None</button>
+          <div class="page"><!-- start page -->
 
-            <button type="button" class="control" data-sort="default:asc">Asc</button>
-            <button type="button" class="control" data-sort="default:desc">Desc</button>
-        </div>
+          <div class="container">
 
+              <div class="controls text-center">
+                <button type="button" class="control btn-primary" data-filter="all">All</button>
+                <button type="button" class="control btn-primary" data-filter=".green">Green</button>
+                <button type="button" class="control btn-primary" data-filter=".blue">Blue</button>
+                <button type="button" class="control btn-primary" data-filter=".pink">Pink</button>
+                <button type="button" class="control btn-primary" data-filter="none">None</button>
+
+                <button type="button" class="control btn-primary" data-sort="default:asc">Asc</button>
+                <button type="button" class="control btn-primary" data-sort="default:desc">Desc</button>
+            </div>
+
+          </div> <!-- end controls container -->
+                        <!-- categorys -->
           <div class="container " id="container">
             <div class="row">
 
-              <div class="mix col-sm-6 col-md-4 green">
-                  <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 green">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 pink">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 green">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 pink">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
 
-            </div>
-          </div>
 
+            </div><!-- end row -->
+          </div><!-- end container -->
 
+        </div><!-- end page -->
 <?php
                 // ############# webDesign Page ####################2
         } elseif ($mod == 'webDesign') { ?>
 
-          <div class="controls">
-            <button type="button" class="control" data-filter="all">All</button>
-            <button type="button" class="control" data-filter=".green">Green</button>
-            <button type="button" class="control" data-filter=".blue">Blue</button>
-            <button type="button" class="control" data-filter=".pink">Pink</button>
-            <button type="button" class="control" data-filter="none">None</button>
+          <div class="page"><!-- start page -->
 
-            <button type="button" class="control" data-sort="default:asc">Asc</button>
-            <button type="button" class="control" data-sort="default:desc">Desc</button>
-        </div>
+          <div class="container">
 
+              <div class="controls text-center">
+                <button type="button" class="control btn-primary" data-filter="all">All</button>
+                <button type="button" class="control btn-primary" data-filter=".green">Green</button>
+                <button type="button" class="control btn-primary" data-filter=".blue">Blue</button>
+                <button type="button" class="control btn-primary" data-filter=".pink">Pink</button>
+                <button type="button" class="control btn-primary" data-filter="none">None</button>
+
+                <button type="button" class="control btn-primary" data-sort="default:asc">Asc</button>
+                <button type="button" class="control btn-primary" data-sort="default:desc">Desc</button>
+            </div>
+
+          </div> <!-- end controls container -->
+                        <!-- categorys -->
           <div class="container " id="container">
             <div class="row">
 
-              <div class="mix col-sm-6 col-md-4 green">
-                  <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 green">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 pink">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 green">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 pink">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
 
-            </div>
-          </div>
+
+            </div><!-- end row -->
+          </div><!-- end container -->
+
+        </div><!-- end page -->
 
 
 <?php
                 // #################### programmingWeb Page #########3
         } elseif ($mod == 'programmingWeb') {?>
 
-          <div class="controls">
-            <button type="button" class="control" data-filter="all">All</button>
-            <button type="button" class="control" data-filter=".green">Green</button>
-            <button type="button" class="control" data-filter=".blue">Blue</button>
-            <button type="button" class="control" data-filter=".pink">Pink</button>
-            <button type="button" class="control" data-filter="none">None</button>
+          <div class="page"><!-- start page -->
 
-            <button type="button" class="control" data-sort="default:asc">Asc</button>
-            <button type="button" class="control" data-sort="default:desc">Desc</button>
-        </div>
+            <div class="container">
 
+                <div class="controls text-center">
+                  <button type="button" class="control btn-primary" data-filter="all">All</button>
+                  <button type="button" class="control btn-primary" data-filter=".green">Green</button>
+                  <button type="button" class="control btn-primary" data-filter=".blue">Blue</button>
+                  <button type="button" class="control btn-primary" data-filter=".pink">Pink</button>
+                  <button type="button" class="control btn-primary" data-filter="none">None</button>
+
+                  <button type="button" class="control btn-primary" data-sort="default:asc">Asc</button>
+                  <button type="button" class="control btn-primary" data-sort="default:desc">Desc</button>
+              </div>
+
+            </div> <!-- end controls container -->
+                        <!-- categorys -->
           <div class="container " id="container">
             <div class="row">
 
-              <div class="mix col-sm-6 col-md-4 green">
-                  <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 green">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 pink">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 green">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 pink">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
-              <div class="mix col-sm-6 col-md-4 blue">
-                    <img src="http://via.placeholder.com/300x300" alt="">
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
               </div>
 
-            </div>
-          </div>
+
+            </div><!-- end row -->
+          </div><!-- end container -->
+
+        </div><!-- end page -->
 
 
 
@@ -168,8 +391,122 @@
                 // ################## programmingDesktop Page #######4
         } elseif($mod == 'programmingDesktop') {?>
 
+          <div class="page"><!-- start page -->
+            <div class="container">
 
-                <h1>welcome programmingDesktop</h1>
+                <div class="controls text-center">
+                  <button type="button" class="control btn-primary" data-filter="all">All</button>
+                  <button type="button" class="control btn-primary" data-filter=".green">Green</button>
+                  <button type="button" class="control btn-primary" data-filter=".blue">Blue</button>
+                  <button type="button" class="control btn-primary" data-filter=".pink">Pink</button>
+                  <button type="button" class="control btn-primary" data-filter="none">None</button>
+
+                  <button type="button" class="control btn-primary" data-sort="default:asc">Asc</button>
+                  <button type="button" class="control btn-primary" data-sort="default:desc">Desc</button>
+              </div>
+
+          </div> <!-- end controls container -->
+
+                        <!-- categorys -->
+          <div class="container " id="container">
+            <div class="row">
+
+              <div class="mix col-sm-6 col-md-3 green">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 blue">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+
+
+            </div><!-- end row -->
+          </div><!-- end container -->
+
+        </div><!-- end page -->
 
 
 
@@ -177,7 +514,122 @@
                 // ###################### Mobile Page ###############5
         } elseif ($mod == 'Mobile') {?>
 
-                <h1>welcome Mobile</h1>
+          <div class="page"><!-- start page -->
+
+            <div class="container">
+
+                <div class="controls text-center">
+                  <button type="button" class="control btn-primary" data-filter="all">All</button>
+                  <button type="button" class="control btn-primary" data-filter=".green">Green</button>
+                  <button type="button" class="control btn-primary" data-filter=".blue">Blue</button>
+                  <button type="button" class="control btn-primary" data-filter=".pink">Pink</button>
+                  <button type="button" class="control btn-primary" data-filter="none">None</button>
+
+                  <button type="button" class="control btn-primary" data-sort="default:asc">Asc</button>
+                  <button type="button" class="control btn-primary" data-sort="default:desc">Desc</button>
+              </div>
+
+            </div> <!-- end controls container -->
+                        <!-- categorys -->
+          <div class="container " id="container">
+            <div class="row">
+
+              <div class="mix col-sm-6 col-md-3 green">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 green">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 blue">
+                  <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <div class="caption">
+                     <h3>Thumbnail label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
+                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                   </div>
+                 </div>
+              </div>
+
+
+            </div><!-- end row -->
+          </div><!-- end container -->
+
+        </div><!-- end page -->
 
 
 <?php
