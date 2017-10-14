@@ -47,7 +47,63 @@
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
                              ?>
-              <div class="mix col-sm-6 col-md-3 cat-1">
+              <div class="mix col-sm-6 col-md-3 cat-1"><!-- ألوان -->
+                <div class="thumbnail">
+                   <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
+                   <div class="caption">
+                     <h3><?php echo $web['Name'] ; ?></h3>
+                     <p><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                   </div>
+                 </div>
+              </div>
+<?php
+  }
+}
+                    
+                      $webCate = webCat(2);
+                       foreach($webCate as $web){
+                         if($web['Approve'] == 1) {
+                             ?>
+              <div class="mix col-sm-6 col-md-3 cat-2"><!-- خطوط غرافك -->
+                <div class="thumbnail">
+                   <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
+                   <div class="caption">
+                     <h3><?php echo $web['Name'] ; ?></h3>
+                     <p><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                   </div>
+                 </div>
+              </div>
+<?php
+  }
+}
+                     
+                      $webCate = webCat(3);
+                       foreach($webCate as $web){
+                         if($web['Approve'] == 1) {
+                             ?>
+              <div class="mix col-sm-6 col-md-3 cat-3"><!-- برامج غرافك -->
+                <div class="thumbnail">
+                   <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
+                   <div class="caption">
+                     <h3><?php echo $web['Name'] ; ?></h3>
+                     <p><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                   </div>
+                 </div>
+              </div>
+
+<?php
+  }
+}
+
+                      
+                      $webCate = webCat(4);
+                       foreach($webCate as $web){
+                         if($web['Approve'] == 1) {
+                             ?>
+              <div class="mix col-sm-6 col-md-3 cat-4"><!-- دعم غرافيك -->
                 <div class="thumbnail">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
@@ -61,11 +117,11 @@
   }
 }
                     // Blue
-                      $webCate = webCat(2);
+                      $webCate = webCat(5);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
                              ?>
-              <div class="mix col-sm-6 col-md-3 cat-2">
+              <div class="mix col-sm-6 col-md-3 cat-5"><!-- مدارس غرافك -->
                 <div class="thumbnail">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
@@ -78,12 +134,32 @@
 <?php
   }
 }
-                      //Pink
-                      $webCate = webCat(4);
+                      
+                      $webCate = webCat(6);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
                              ?>
-              <div class="mix col-sm-6 col-md-3 cat-3">
+              <div class="mix col-sm-6 col-md-3 cat-6"><!-- المزيد غرافك -->
+                <div class="thumbnail">
+                   <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
+                   <div class="caption">
+                     <h3><?php echo $web['Name'] ; ?></h3>
+                     <p><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                   </div>
+                 </div>
+              </div>
+
+<?php
+  }
+}
+
+        //Pink
+                      $webCate = webCat(32);
+                       foreach($webCate as $web){
+                         if($web['Approve'] == 1) {
+                             ?>
+              <div class="mix col-sm-6 col-md-3 cat-7"><!-- الصور -->
                 <div class="thumbnail">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
@@ -98,7 +174,6 @@
   }
 }
 ?>
-
             </div><!-- end row -->
           </div><!-- end container -->
 
