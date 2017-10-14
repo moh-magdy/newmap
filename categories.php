@@ -45,23 +45,64 @@
                         <!-- categorys -->
           <div class="container " id="container">
             <div class="row">
-<?php
+<?php                 
+                      //Green
                       $webCate = webCat(1);
                        foreach($webCate as $web){
+                         if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 green">
                 <div class="thumbnail">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
-                     <h3>Thumbnail label</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
-                     <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                     <h3><?php echo $web['Name'] ; ?></h3>
+                     <p><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
                    </div>
                  </div>
               </div>
 <?php
+  }
+}
+                    // Blue
+                      $webCate = webCat(2);
+                       foreach($webCate as $web){
+                         if($web['Approve'] == 1) {
+                             ?>
+              <div class="mix col-sm-6 col-md-3 blue">
+                <div class="thumbnail">
+                   <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
+                   <div class="caption">
+                     <h3><?php echo $web['Name'] ; ?></h3>
+                     <p><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                   </div>
+                 </div>
+              </div>
+<?php
+  }
+}
+                      //Pink
+                      $webCate = webCat(4);
+                       foreach($webCate as $web){
+                         if($web['Approve'] == 1) {
+                             ?>
+              <div class="mix col-sm-6 col-md-3 pink">
+                <div class="thumbnail">
+                   <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
+                   <div class="caption">
+                     <h3><?php echo $web['Name'] ; ?></h3>
+                     <p><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                   </div>
+                 </div>
+              </div>
+<?php
+  }
 }
 ?>
+
+
             <!--  
               <div class="mix col-sm-6 col-md-3 green">
                   <div class="thumbnail">
@@ -83,6 +124,7 @@
                    </div>
                  </div>
               </div>
+           
               <div class="mix col-sm-6 col-md-3 blue">
                   <div class="thumbnail">
                    <img src="http://via.placeholder.com/250x200" alt="">
