@@ -1,3 +1,5 @@
+
+// init SmoothScroll
 var scroll = new SmoothScroll('a[href*="#"]', {
 
 	// Speed & Easing
@@ -6,6 +8,8 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	easing: 'easeInOutCubic', // Easing pattern to use
 
 });
+
+// init mix-it-up
 var containerEl = document.querySelector('#container');
 
 
@@ -15,13 +19,4 @@ var mixer = mixitup(containerEl, {
     }
 });
 
-mixer.toggleOn('.green')
-    .then(function() {
-        // Deactivate all active toggles
-
-        
-    })
-    .then(function(state) {
-         console.log(state.activeFilter.selector); // 'none'
-         console.log(state.totalShow); // 0
-    });
+mixer.toggleOn('.cat-1');
