@@ -7,4 +7,21 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 
 });
 var containerEl = document.querySelector('#container');
-var mixer = mixitup(containerEl);
+
+
+var mixer = mixitup(containerEl, {
+    controls: {
+        toggleDefault: 'none'
+    }
+});
+
+mixer.toggleOn('.green')
+    .then(function() {
+        // Deactivate all active toggles
+
+        
+    })
+    .then(function(state) {
+         console.log(state.activeFilter.selector); // 'none'
+         console.log(state.totalShow); // 0
+    });
