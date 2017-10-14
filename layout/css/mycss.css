@@ -268,13 +268,13 @@ box-shadow: 5px 5px 10px #999,
   min-height: 650px;
 }
 .page .back {
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background: #300032;
   height: 250px;
 }
 .page .back h2 {
   margin-top: 0px;
   line-height: 250px;
-  color: #06373B;
+  color: #fff;
   font-size: 40px;
   font-weight: bold;
 }
