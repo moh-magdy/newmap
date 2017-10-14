@@ -44,3 +44,15 @@ function redirectHome($theMsg, $url= null, $seconds = 3) {
                 return $count;
             }
 
+        /* Get Category */
+        function webCat($numbrCat) {
+                        
+            global $contant;
+                        
+            $getCat = $contant->prepare("SELECT * FROM websites WHERE cat_ID = $numbrCat");
+                        
+            $getCat->execute();
+            $catz = $getCat->fetchAll();
+            return $catz;
+
+        }

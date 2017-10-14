@@ -10,7 +10,7 @@
 
         include 'init.php';
         $mod = isset($_GET['mod']) ? $_GET['mod'] : 'Error';
-
+        $fileWebimg = './Admin/data/upload/websites-Image/';
 
         // Start  Page
 
@@ -45,10 +45,13 @@
                         <!-- categorys -->
           <div class="container " id="container">
             <div class="row">
-
+<?php
+                      $webCate = webCat(1);
+                       foreach($webCate as $web){
+                             ?>
               <div class="mix col-sm-6 col-md-3 green">
                 <div class="thumbnail">
-                   <img src="http://via.placeholder.com/250x200" alt="">
+                   <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3>Thumbnail label</h3>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Ut enim ad minim veniam.</p>
@@ -56,6 +59,10 @@
                    </div>
                  </div>
               </div>
+<?php
+}
+?>
+            <!--  
               <div class="mix col-sm-6 col-md-3 green">
                   <div class="thumbnail">
                    <img src="http://via.placeholder.com/250x200" alt="">
@@ -137,7 +144,7 @@
                  </div>
               </div>
 
-
+-->
             </div><!-- end row -->
           </div><!-- end container -->
 
