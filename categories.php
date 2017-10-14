@@ -31,21 +31,17 @@
           <div class="container">
 
               <div class="controls text-center">
-                <button type="button" class="control btn-primary" data-filter="all">All</button>
+
                 <button type="button" class="control btn-primary" data-filter=".green">Green</button>
                 <button type="button" class="control btn-primary" data-filter=".blue">Blue</button>
                 <button type="button" class="control btn-primary" data-filter=".pink">Pink</button>
-                <button type="button" class="control btn-primary" data-filter="none">None</button>
-
-                <button type="button" class="control btn-primary" data-sort="default:asc">Asc</button>
-                <button type="button" class="control btn-primary" data-sort="default:desc">Desc</button>
             </div>
 
           </div> <!-- end controls container -->
                         <!-- categorys -->
           <div class="container " id="container">
             <div class="row">
-<?php                 
+<?php
                       //Green
                       $webCate = webCat(1);
                        foreach($webCate as $web){
@@ -97,13 +93,14 @@
                    </div>
                  </div>
               </div>
+
 <?php
   }
 }
 ?>
 
 
-            <!--  
+            <!--
               <div class="mix col-sm-6 col-md-3 green">
                   <div class="thumbnail">
                    <img src="http://via.placeholder.com/250x200" alt="">
@@ -124,7 +121,7 @@
                    </div>
                  </div>
               </div>
-           
+
               <div class="mix col-sm-6 col-md-3 blue">
                   <div class="thumbnail">
                    <img src="http://via.placeholder.com/250x200" alt="">
