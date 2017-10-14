@@ -10,6 +10,7 @@
 
         include 'init.php';
         $mod = isset($_GET['mod']) ? $_GET['mod'] : 'Error';
+        $goLink = "أذهب";
         $fileWebimg = './Admin/data/upload/websites-Image/';
 
         // Start  Page
@@ -42,8 +43,8 @@
           <div class="container" id="container"> <!-- start container -->
             <div class="row">
 <?php
-                      //Green
-                      $webCate = webCat(1);
+
+                      $webCate = webCat(1); // function for call up categories
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
                              ?>
@@ -53,7 +54,7 @@
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -71,7 +72,7 @@
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -89,7 +90,7 @@
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -98,7 +99,6 @@
   }
 }
 
-                      
                       $webCate = webCat(4);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
@@ -109,14 +109,14 @@
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
 <?php
   }
 }
-                    // Blue
+
                       $webCate = webCat(5);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
@@ -127,7 +127,7 @@
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -145,7 +145,7 @@
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -154,7 +154,6 @@
   }
 }
 
-        //Pink
                       $webCate = webCat(32);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
@@ -165,7 +164,7 @@
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button">اذهب</a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
