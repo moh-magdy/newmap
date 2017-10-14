@@ -28,17 +28,22 @@
         } elseif($mod == 'imgDesign') { ?>
 
           <div class="page"><!-- start page -->
-
-          <div class="container">
-              <div class="controls text-center"> <!-- start controls container -->
-                <button type="button" class="control btn-primary" data-filter=".cat-1">الالوان</button>
-                <button type="button" class="control btn-primary" data-filter=".cat-2">الخطوط</button>
-                <button type="button" class="control btn-primary" data-filter=".cat-3">cat-3</button>
-                <button type="button" class="control btn-primary" data-filter=".cat-4">cat-4</button>
-                <button type="button" class="control btn-primary" data-filter=".cat-5">cat-5</button>
+            <div class="back text-center">
+              <h2>تصميم الرسومات</h2>
             </div>
-          </div> <!-- end controls container -->
-
+            <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="controls text-center"> <!-- start controls container -->
+                  <button type="button" class="control btn-default" data-filter=".cat-1">الالوان</button>
+                  <button type="button" class="control btn-default" data-filter=".cat-2">الخطوط</button>
+                  <button type="button" class="control btn-default" data-filter=".cat-3">cat-3</button>
+                  <button type="button" class="control btn-default" data-filter=".cat-4">cat-4</button>
+                  <button type="button" class="control btn-default" data-filter=".cat-5">cat-5</button>
+                  <button type="button" class="control btn-default" data-filter=".cat-6">cat-6</button>
+                  <button type="button" class="control btn-default" data-filter=".cat-7">cat-7</button>
+              </div>
+            </div> <!-- end controls container -->
+          </nav>
                         <!-- category -->
           <div class="container" id="container"> <!-- start container -->
             <div class="row">
@@ -61,7 +66,7 @@
 <?php
   }
 }
-                    
+
                       $webCate = webCat(2);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
@@ -79,7 +84,7 @@
 <?php
   }
 }
-                     
+
                       $webCate = webCat(3);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
@@ -134,7 +139,7 @@
 <?php
   }
 }
-                      
+
                       $webCate = webCat(6);
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {

@@ -267,20 +267,34 @@ box-shadow: 5px 5px 10px #999,
 .page {
   min-height: 650px;
 }
-.page .controls {
- min-height: 40px;
- margin-top: 10px;
- margin-bottom: 25px;
-
+.page .back {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  height: 250px;
+}
+.page .back h2 {
+  margin-top: 0px;
+  line-height: 250px;
+  color: #06373B;
+  font-size: 40px;
+  font-weight: bold;
+}
+.page nav {
+  margin-top: 5px;
+  padding: 10px
 }
 .page .controls button {
   height: 50px;
   min-width: 120px;
   font-size: 20px;
   font-weight: bold;
-  margin: 10px;
   padding: 5px;
   border-radius: 5px;
+  color: #000;
+  border: 1px solid #000
+}
+.page .controls button:focus {
+  outline: 0px
+
 }
 #container .mix {
   margin-top: 20px;
