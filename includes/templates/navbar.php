@@ -3,7 +3,7 @@
 =================================================================================
 ======================================== navBar page ============================
 =================================================================================
-*/    
+*/
 ?>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -29,11 +29,11 @@
                 <ul class="dropdown-menu">
                   <li><a href="categories.php?mod=serviceProvider">مزود الخدمة</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="categories.php?mod=callUs">أتصل بنا</a></li>                         
+                  <li><a href="categories.php?mod=callUs">أتصل بنا</a></li>
                 </ul>
             </li>
-            <li><a href="categories.php?mod=Mobile">ب.ت الموبايل</a></li>
-            <li><a href="categories.php?mod=programmingDesktop">ب.ت الدسك توب</a></li>
+            <li><a href="categories.php?mod=Mobile">الموبايل </a> </li>
+            <li><a href="categories.php?mod=programmingDesktop">الدسك توب </a></li>
             <li><a href="categories.php?mod=imgDesign">تصميم الرسومات</a></li>
             <li><a href="categories.php?mod=webDesign">تصميم ويب</a></li>
             <li><a href="categories.php?mod=programmingWeb">برمجه ويب <span class="sr-only">(current)</span></a></li>

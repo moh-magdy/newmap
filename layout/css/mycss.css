@@ -135,7 +135,7 @@ body {
 
 /* start our site section */
 .site-sec {
-  background-color: #eee;
+  background-color: #300032;
   padding-top: 30px;
   padding-bottom: 30px
 }
@@ -149,26 +149,18 @@ body {
 .site-sec  a {
   text-decoration: none;
 }
-.site-sec  .thumbnail{
-box-shadow: 5px 5px 10px #999,
-           -5px -5px 10px #999;
 
-
-}
 .site-sec  .thumbnail:hover {
-  box-shadow: 10px 10px 15px #999,
-             -10px -10px 15px #999;
-  transform: scale(1.1,1.1);
+
+  transform: scale(1.05,1.05);
 
 }
-.site-sec  .thumbnail:hover h3 {
-  color: #e41b17
-}
+
 .site-sec  .thumbnail img {
   width: 100%
 }
 .site-sec h3 {
-  color: #06373B;
+  color: #e41b17;
   font-weight: bold;
   transition: all .75s ease-in-out;
   -webkit-transition: all .75s ease-in-out;
@@ -192,9 +184,13 @@ box-shadow: 5px 5px 10px #999,
   text-align: center;
   width: 100%
 }
-.add-comment .form h2,
 .add-site .form h2 {
-  color: #06373B
+  color: #e41b17;
+  margin-bottom: 15px
+}
+.add-comment .form h2 {
+  color: #fff;
+  margin-bottom: 15px
 }
 .add-comment .form .form-control,
 .add-site .form .form-control {
@@ -219,7 +215,7 @@ box-shadow: 5px 5px 10px #999,
 
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee
+  background-color: #300032
 }
 .add-comment .smi-pull {
   text-align: center;
@@ -228,6 +224,7 @@ box-shadow: 5px 5px 10px #999,
 .add-comment .cont {
   width: 100%
 }
+
 /* end form-1 section */
 
 /* start footer section */
@@ -239,7 +236,7 @@ box-shadow: 5px 5px 10px #999,
   border-width: 0 0 1px;
   border: 1px solid transparent;
   color: #bbb;
-  box-shadow:  0 -10px 10px #999
+
 }
 .footer h2 {
   padding-bottom: 10px
@@ -265,15 +262,15 @@ box-shadow: 5px 5px 10px #999,
 
 /* ***** start site pages ***** */
 .page {
-  min-height: 650px;
+
 }
 .page .back {
   background: #300032;
-  height: 250px;
+
 }
 .page .back h2 {
   margin-top: 0px;
-  line-height: 250px;
+  line-height: 100px;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
@@ -282,6 +279,10 @@ box-shadow: 5px 5px 10px #999,
   margin-top: 5px;
   padding: 10px
 }
+.page .navbar-default {
+    background-color: rgba(249, 249, 249, 0.05);
+    border-color: rgba(231, 231, 231, 0.15);
+}
 .page .controls button {
   height: 50px;
   min-width: 120px;
@@ -289,8 +290,12 @@ box-shadow: 5px 5px 10px #999,
   font-weight: bold;
   padding: 5px;
   border-radius: 5px;
-  color: #000;
-  border: 1px solid #000
+  color: rgba(228, 27, 23, .8);
+  background-color: rgba(249, 249, 249, 0.10);
+  border-color: rgba(0, 0, 0, 0.30);
+  border: .5px solid #fff;
+  margin: 3px
+
 }
 .page .controls button:focus {
   outline: 0px

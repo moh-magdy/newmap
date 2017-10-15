@@ -33,10 +33,11 @@
         </div> <!-- row -->
 
       </div> <!-- container -->
+      <div class="mark text-center">
+        tread mark
+      </div>
     </div>
-    <div class="mark text-center">
-      tread mark
-    </div>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="<?php echo $js ?>jquery-3.2.1.min.js"></script>

@@ -113,7 +113,7 @@
       <div class="container">
         <div class="row">
           <div class="img col-xs-12 col-md-6">
-            <img src="http://via.placeholder.com/400x300" alt="">
+            <img src="layout/imgs/add.jpeg" alt="">
           </div>
           <div class="form col-xs-12 col-md-6 ">
             <div class="cont pull-right">
@@ -169,7 +169,7 @@
               </div>
               <div class="cont">
                     <div class="img col-xs-12 col-md-6">
-                      <img src="http://via.placeholder.com/400x300" alt="">
+                      <img src="layout/imgs/com.jpeg" alt="">
                     </div>
                   </div>
             </div>
