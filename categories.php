@@ -19,8 +19,27 @@
                 // ############# Error Page ####################0
         if($mod == 'Error') { ?>
 
+            <div class="page">
+              <div class="container">
+                <div class="row">
 
-                <h1>Welcome Error Page</h1>
+                  <div class="o-4 col-sm-12 col-md-6">
+                    <h2>what did you do!!</h2>
+                    <p class="lead">This link is broken</p>
+
+                    <!-- add link to home :) -->
+
+                    <button class="btn btn-danger" type="button">GO HOME
+                      <i class="fa fa-home fa-2x" aria-hidden="true"></i></button>
+                  </div>
+
+                  <div class="o-4 col-sm-12 col-md-6">
+                    <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
 
 
 <?php

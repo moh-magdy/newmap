@@ -17,7 +17,6 @@ $(document).ready(function(){
 		// init mix-it-up
 		var containerEl = document.querySelector('#container');
 
-
 		var mixer = mixitup(containerEl, {
 		    controls: {
 		        toggleDefault: 'none'
