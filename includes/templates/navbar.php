@@ -17,7 +17,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand navbar-left" href="index.php">مابلينك</a>
+          <a class="navbar-brand navbar-left" href="index.php">ماب<i class="fa fa-street-view" aria-hidden="true" style="color:#f3f3f3 "></i>
+لينك</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

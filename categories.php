@@ -83,8 +83,8 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
-                     <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
+                      <p class="lead"><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -101,8 +101,8 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
-                     <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
+                      <p class="lead"><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -119,8 +119,8 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
-                     <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
+                      <p class="lead"><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -138,8 +138,8 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
-                     <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
+                      <p class="lead"><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -156,8 +156,8 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
-                     <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
+                      <p class="lead"><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -174,8 +174,8 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
-                     <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
+                      <p class="lead"><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -193,8 +193,8 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
-                     <p><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-primary" role="button"><?php echo $goLink; ?></a></p>
+                      <p class="lead"><?php echo $web['Description'] ; ?></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>

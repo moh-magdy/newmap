@@ -34,7 +34,7 @@ body {
 }
 /* navbar brand */
 .navbar-inverse .navbar-brand{
-  color: #bbb;
+  color: #e41b17;
   font-size: 40px;
   line-height: 30px;
   font-weight: bold
@@ -308,7 +308,7 @@ body {
   margin-bottom: 20px;
 }
 #container .thumbnail {
-  height: 300px
+  min-height: 300px
 }
 #container .thumbnail a {
   margin: 5px;
