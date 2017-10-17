@@ -8,7 +8,7 @@
 
     session_start();
 include 'init.php';
-        
+
         $mod = isset($_GET['mod']) ? $_GET['mod'] : 'Error';
         $goLink = "أذهب";
         $fileWebimg = './Admin/data/upload/websites-Image/';
@@ -18,7 +18,7 @@ include 'init.php';
 
                 // ############# Error Page ####################0
         if($mod == 'Error') {
-          
+
           ?>
 
             <div class="page">
@@ -33,7 +33,7 @@ include 'init.php';
                   <a href="index.php">
                     <button class="btn btn-danger" type="button">GO HOME
                       <i class="fa fa-home fa-2x" aria-hidden="true"></i></button>
-                  </a>    
+                  </a>
                   </div>
 
                   <div class="o-4 col-sm-12 col-md-6">
@@ -68,6 +68,8 @@ include 'init.php';
             </div>
 
                         <!-- category -->
+          <div class="page-back">
+
           <div class="container" id="container"> <!-- start container -->
             <div class="row">
 <?php
@@ -203,7 +205,7 @@ include 'init.php';
 ?>
             </div><!-- end row -->
           </div><!-- end container -->
-
+        </div><!-- end back -->
         </div><!-- end page -->
 <?php
                 // ############# webDesign Page ####################2
