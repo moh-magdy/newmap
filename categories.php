@@ -7,8 +7,8 @@
     ob_start(); // Headers Sent
 
     session_start();
-
-        include 'init.php';
+include 'init.php';
+        
         $mod = isset($_GET['mod']) ? $_GET['mod'] : 'Error';
         $goLink = "أذهب";
         $fileWebimg = './Admin/data/upload/websites-Image/';
@@ -17,7 +17,9 @@
 
 
                 // ############# Error Page ####################0
-        if($mod == 'Error') { ?>
+        if($mod == 'Error') {
+          
+          ?>
 
             <div class="page">
               <div class="container">
@@ -28,9 +30,10 @@
                     <p class="lead">This link is broken</p>
 
                     <!-- add link to home :) -->
-
+                  <a href="index.php">
                     <button class="btn btn-danger" type="button">GO HOME
                       <i class="fa fa-home fa-2x" aria-hidden="true"></i></button>
+                  </a>    
                   </div>
 
                   <div class="o-4 col-sm-12 col-md-6">
