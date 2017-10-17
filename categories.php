@@ -68,7 +68,7 @@ include 'init.php';
             </div>
 
                         <!-- category -->
-          <div class="page-back">
+
 
           <div class="container" id="container"> <!-- start container -->
             <div class="row">
@@ -79,7 +79,7 @@ include 'init.php';
                          if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 cat-1"><!-- ألوان -->
-                <div class="thumbnail">
+                <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
@@ -97,7 +97,7 @@ include 'init.php';
                          if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 cat-2"><!-- خطوط غرافك -->
-                <div class="thumbnail">
+                <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
@@ -115,7 +115,7 @@ include 'init.php';
                          if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 cat-3"><!-- برامج غرافك -->
-                <div class="thumbnail">
+                <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
@@ -134,7 +134,7 @@ include 'init.php';
                          if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 cat-4"><!-- دعم غرافيك -->
-                <div class="thumbnail">
+                <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
@@ -152,7 +152,7 @@ include 'init.php';
                          if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 cat-5"><!-- مدارس غرافك -->
-                <div class="thumbnail">
+                <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
@@ -170,7 +170,7 @@ include 'init.php';
                          if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 cat-6"><!-- المزيد غرافك -->
-                <div class="thumbnail">
+                <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
@@ -189,7 +189,7 @@ include 'init.php';
                          if($web['Approve'] == 1) {
                              ?>
               <div class="mix col-sm-6 col-md-3 cat-7"><!-- الصور -->
-                <div class="thumbnail">
+                <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
@@ -205,7 +205,6 @@ include 'init.php';
 ?>
             </div><!-- end row -->
           </div><!-- end container -->
-        </div><!-- end back -->
         </div><!-- end page -->
 <?php
                 // ############# webDesign Page ####################2

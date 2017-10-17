@@ -262,9 +262,11 @@ body {
 
 /* ***** start site pages ***** */
 
-.page .page-back {
-  background: #f3f3f3
-
+.page  {
+  background: #f3f3f3;
+}
+.page .back {
+  background: #fff
 }
 .page .back h2 {
   margin-top: 0px;
@@ -272,7 +274,8 @@ body {
   color: #fff;
   font-size: 40px;
   font-weight: bold;
-  color: #e41b17
+  color: #e41b17;
+
 }
 .page nav {
   margin-top: 5px;
@@ -302,9 +305,20 @@ body {
 }
 #container .mix {
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
-
+#container .thumbnail {
+  height: 300px
+}
+#container .thumbnail a {
+  margin: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  left: 30%;
+  width: 40%
+}
 /* 404 page */
 .o-4 .fa-chain-broken {font-size: 300px}
 .o-4 {padding-top: 100px}
