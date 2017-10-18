@@ -234,6 +234,7 @@ include 'init.php';
         } elseif ($mod == 'Mobile') {?>
 
           <h2>Mobile</h2>
+          
 
 <?php
 
@@ -247,6 +248,7 @@ include 'init.php';
         } elseif ($mod == 'serviceProvider') {?>
 
                 <h1>welcome service provider</h1>
+
 
 <?php
                 //###################### call us Page ################8
