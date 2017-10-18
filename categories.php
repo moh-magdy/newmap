@@ -209,8 +209,10 @@ include 'init.php';
 <?php
                 // ############# webDesign Page ####################2
         } elseif ($mod == 'webDesign') { ?>
+          <div class="page">
+            <h2>web design</h2>
+          </div>
 
-          <h2>web design</h2>
 
 
 <?php

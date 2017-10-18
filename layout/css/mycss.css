@@ -9,7 +9,8 @@ body {
 
 /* main navbar */
 .navbar {
-  min-height: 61px;
+  min-height: 71px;
+
 
 }
 /* Alert Button*/
@@ -30,7 +31,8 @@ body {
 }
 .navbar-inverse .navbar-nav > li > a:focus, /* ممكن تتزال */
 .navbar-inverse .navbar-nav > li > a:hover {
-  background-color: #e41b17;
+  color: #e41b17;
+  border-bottom: 1px solid #e41b17
 }
 /* navbar brand */
 .navbar-inverse .navbar-brand{
@@ -189,7 +191,7 @@ body {
   margin-bottom: 15px
 }
 .add-comment .form h2 {
-  color: #fff;
+  color: #e41b17;
   margin-bottom: 15px
 }
 .add-comment .form .form-control,
@@ -297,7 +299,6 @@ body {
   border: .5px solid rgba(6, 55, 59, .7);
   margin: 3px;
   border-radius: 0px
-
 }
 .page .controls button:focus {
   outline: 0px
@@ -308,12 +309,14 @@ body {
   margin-bottom: 20px;
 }
 #container .thumbnail {
-  min-height: 300px
+  min-height: 300px;
+
 }
 #container .thumbnail a {
   margin: 5px;
   font-size: 22px;
   font-weight: bold;
+
   position: absolute;
   bottom: 30px;
   left: 30%;

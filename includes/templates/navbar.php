@@ -6,7 +6,7 @@
 */
 ?>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" >
       <div class="container"><!-- /.container -->
 
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,7 +24,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-          <ul class="nav navbar-nav navbar-left">
+          <ul class="nav navbar-nav navbar-left" id="navto">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">..المزيد<span class="caret"></span></a>
                 <ul class="dropdown-menu">
