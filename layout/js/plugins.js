@@ -25,15 +25,13 @@ $(document).ready(function(){
 
 		mixer.toggleOn('.cat-1');
 
+    // nac active class add !!!!!
+
     // Get current page URL
      var url = window.location.href;
 
-
-
      // select file name
      url = url.substr(url.lastIndexOf("/") + 1);
-
-
 
      // Loop all menu items
      $('#navto li').each(function(){
