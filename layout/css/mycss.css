@@ -78,7 +78,8 @@ body {
 .navbar-inverse .navbar-nav > .active >a:focus,
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   color: #e41b17;
-  border-bottom: 1px solid #e41b17
+  border-bottom: 1px solid #e41b17;
+  background-color: inherit;
 }
 
 /* start header */
