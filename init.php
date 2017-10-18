@@ -10,7 +10,7 @@
 include 'Admin/contact.php';
 
 //Routes
-$func    =   "includes/functions/";
+$func   =   "includes/functions/";
 $tpl    =   "includes/templates/";
 $css    =   "layout/css/";
 $js     =   "layout/js/";
