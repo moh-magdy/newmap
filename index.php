@@ -48,7 +48,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=programmingWeb"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -57,7 +57,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=imgDesign"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -66,7 +66,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=webDesign"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -75,7 +75,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=More"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -84,7 +84,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=Mobile"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -93,7 +93,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=programmingDesktop"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
