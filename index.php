@@ -32,12 +32,12 @@
     <section class="about">
       <div class="container">
         <div class="cont text-center">
-          <h2 id="scroll">هدفنا</h2>
-          <p class="lead">
+          <h2 id="scroll" class="wow fadeInRight" data-wow-offset="300">هدفنا</h2>
+          <p class="lead wow fadeInRight" data-wow-offset="300">
             يهدف الموقع ليكون المرجع الأول والأخير لكي تجد ضالتك من أفضل المواقع ضمن مجالك ونأمل أن تشاركونا بهذه التجرية بأضافة محتوى للمرجع
           </p>
 
-          <p>"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
+          <p class="lead wow fadeInRight" data-wow-offset="300">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
         </div>
       </div>
     </section>
@@ -48,7 +48,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="300">
           <a href="categories.php?mod=programmingWeb"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -57,7 +57,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="300">
           <a href="categories.php?mod=imgDesign"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -66,7 +66,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="300">
           <a href="categories.php?mod=webDesign"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -75,7 +75,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="300">
           <a href="categories.php?mod=More"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -84,7 +84,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="300">
           <a href="categories.php?mod=Mobile"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -93,7 +93,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="300">
           <a href="categories.php?mod=programmingDesktop"><div class="thumbnail">
               <img src="http://via.placeholder.com/350x300" alt="...">
               <div class="caption">
@@ -112,10 +112,10 @@
     <section class="add-site">
       <div class="container">
         <div class="row">
-          <div class="img col-xs-12 col-md-6">
+          <div class="img col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="100">
             <img src="layout/imgs/add.jpeg" alt="">
           </div>
-          <div class="form col-xs-12 col-md-6 ">
+          <div class="form col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="100">
             <div class="cont pull-right">
 
               <h2>شاركنا بموقع او رابط</h2>
@@ -149,7 +149,7 @@
       <div class="container">
         <div class="row">
 
-            <div class="form col-xs-12 col-md-6">
+            <div class="form col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="200">
               <div class="smi-pull">
                <h2>شاركنا بتعليقك</h2>
 
@@ -168,7 +168,7 @@
                 </form>
               </div>
               <div class="cont">
-                    <div class="img col-xs-12 col-md-6">
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="200">
                       <img src="layout/imgs/com.jpeg" alt="">
                     </div>
                   </div>
