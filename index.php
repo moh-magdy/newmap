@@ -15,7 +15,7 @@
     <div class="header text-center">
       <div class="head-img">
           <div class="overlay">
-            <div class="jumbotron wow bounceIn" data-wow-delay="1s">
+            <div class="jumbotron wow bounceIn" data-wow-delay=".40s">
               <h1>مابلينك طريقك للعالم</h1>
               <p class="lead">أنتقل مباشرة لما تريد</p>
               <a data-scroll href="#scroll">
@@ -169,7 +169,7 @@
               </div>
               <div class="cont">
                     <div class="img col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="50">
-                      <img src="layout/imgs/com.jpeg" alt="">
+
                     </div>
                   </div>
             </div>
