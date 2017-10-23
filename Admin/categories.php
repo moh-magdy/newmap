@@ -33,10 +33,12 @@
             ?>
 
             <div class="container">
+            
                 <div class="panel-manag" role="tablist">
                     <div class="card">
                         <div class="card-header" role="tab" >
                             <h3 class="mb-0 text-center h1">Manage Category</h3>
+                             <a href="categories.php?mod=Add" class="badge badge-primary">+ New Category</a>
                             <div class="ordering float-right">
                                 <a class="<?php if($sort == 'ASC') {echo 'active'; } ?>" href="?sort=ASC">Asc</a> |
                                 <a class="<?php if($sort == 'DESC') {echo 'active'; } ?>" href="?sort=DESC">Desc</a>
@@ -61,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="categories.php?mod=Add" class="badge badge-primary">+ New Category</a>
+               
             </div>
     <?php    
         } elseif($mod == 'Add') { //Add  Page ?>
