@@ -6,7 +6,7 @@
 */
 ?>
 
-<nav class="navbar navbar-inverse navbar-fixed-top wow fadeInUpBig" >
+<nav class="navbar navbar-inverse navbar-fixed-top" >
       <div class="container"><!-- /.container -->
 
         <!-- Brand and toggle get grouped for better mobile display -->

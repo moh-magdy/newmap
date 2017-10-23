@@ -32,12 +32,12 @@
     <section class="about">
       <div class="container">
         <div class="cont text-center">
-          <h2 id="scroll" class="wow fadeInRight" data-wow-offset="300">هدفنا</h2>
-          <p class="lead wow fadeInRight" data-wow-offset="300">
+          <h2 id="scroll" class="wow fadeInRight" data-wow-offset="100">هدفنا</h2>
+          <p class="lead wow fadeInRight" data-wow-offset="100">
             يهدف الموقع ليكون المرجع الأول والأخير لكي تجد ضالتك من أفضل المواقع ضمن مجالك ونأمل أن تشاركونا بهذه التجرية بأضافة محتوى للمرجع
           </p>
 
-          <p class="lead wow fadeInRight" data-wow-offset="300">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
+          <p class="lead wow fadeInRight" data-wow-offset="100">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
         </div>
       </div>
     </section>
@@ -112,10 +112,10 @@
     <section class="add-site">
       <div class="container">
         <div class="row">
-          <div class="img col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="100">
+          <div class="img col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="50">
             <img src="layout/imgs/add.jpeg" alt="">
           </div>
-          <div class="form col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="100">
+          <div class="form col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="50">
             <div class="cont pull-right">
 
               <h2>شاركنا بموقع او رابط</h2>
@@ -149,7 +149,7 @@
       <div class="container">
         <div class="row">
 
-            <div class="form col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="200">
+            <div class="form col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="50">
               <div class="smi-pull">
                <h2>شاركنا بتعليقك</h2>
 
@@ -168,7 +168,7 @@
                 </form>
               </div>
               <div class="cont">
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="200">
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="50">
                       <img src="layout/imgs/com.jpeg" alt="">
                     </div>
                   </div>
