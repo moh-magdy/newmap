@@ -268,6 +268,7 @@ body {
 
 .page  {
   background: #f3f3f3;
+
 }
 .page .back {
   background: #fff
@@ -283,27 +284,38 @@ body {
 }
 .page nav {
   margin-top: 5px;
-  padding: 10px
+  margin-bottom: 10px;
+  padding: 10px;
+
 }
 .page .navbar-default {
-    background-color: rgba(249, 249, 249, 0.05);
-    border-color: rgba(231, 231, 231, 0.15);
+    background-color: rgba(249, 249, 249, 0.0);
+    border-color: rgba(231, 231, 231, 0.0);
 }
 .page .controls button {
   height: 50px;
   min-width: 120px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   padding: 5px;
-  border-radius: 5px;
-  color: #06373B;
-  background-color: rgba(249, 249, 249, 0.10);
-  border: .5px solid rgba(6, 55, 59, .7);
-  margin: 3px;
-  border-radius: 0px
+  border:0px;
+  margin: 10px;
+  color: #000;
+  border-bottom: 2px solid #000
+
+}
+.page .controls button:hover {
+  background-color: inherit;
+  color: #e41b17;
+  border-bottom: 2px solid #e41b17;
+  font-size: 22px;
 }
 .page .controls button:focus {
-  outline: 0px
+  background-color: inherit;
+  outline: 0px;
+  color: #e41b17;
+  border-bottom: 2px solid #e41b17;
+  font-size: 24px;
 
 }
 #container .mix {
