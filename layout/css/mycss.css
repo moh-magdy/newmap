@@ -331,7 +331,7 @@ body {
   margin-bottom: 20px;
 }
 #container .thumbnail {
-  min-height: 300px;
+  height: 340px;
 
 }
 #container .thumbnail a {
@@ -344,6 +344,14 @@ body {
   left: 30%;
   width: 40%
 }
+#container .thumbnail .star-grop {
+  padding-bottom: 15px;
+  font-size: 18px
+}
+#container .thumbnail .star-grop i {
+  color: #f39c12
+}
+
 /* 404 page */
 .o-4 .fa-chain-broken {font-size: 300px}
 .o-4 {padding-top: 100px}

@@ -83,6 +83,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>

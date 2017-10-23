@@ -168,21 +168,21 @@
                 </form>
               </div>
               <div class="cont text-right">
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="50">
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight " data-wow-offset="50">
                       <div class="list-group">
-                        <a href="#" class="list-group-item ">
+                        <a  class="list-group-item ">
                           <h4 class="list-group-item-heading">اسم المستخدم</h4>
                           <p class="list-group-item-text">تعليق هنا</p>
                         </a>
                       </div>
                       <div class="list-group">
-                        <a href="#" class="list-group-item ">
+                        <a  class="list-group-item ">
                           <h4 class="list-group-item-heading">اسم المستخدم</h4>
                           <p class="list-group-item-text">تعليق هنا </p>
                         </a>
                       </div>
                       <div class="list-group">
-                        <a href="#" class="list-group-item ">
+                        <a class="list-group-item ">
                           <h4 class="list-group-item-heading">اسم المستخدم</h4>
                           <p class="list-group-item-text">تعليق هنا</p>
                         </a>
