@@ -43,7 +43,7 @@
         ?> 
             <h2 class="text-center Adm-h1">Manage Website</h2>
             <div class="container">
-
+                <a href="websites.php?mod=Add" class="badge badge-primary">+ New Domain</a>
             
                 <table class="table tab-web table-striped table-responsive">
                     <thead class='text-center'>
@@ -95,7 +95,7 @@
                 }
             ?>
                 </table>
-                <a href="websites.php?mod=Add" class="badge badge-primary">+ New Domain</a>
+                
             </div>
       <?php
         } elseif($mod == 'Add') { //Add  Page ?>
