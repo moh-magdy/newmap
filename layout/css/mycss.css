@@ -3,7 +3,7 @@
 *{box-sizing: border-box}
 
 body {
-  padding-top: 60px;
+
 
 }
 
@@ -96,12 +96,14 @@ body {
 }
 /* header text & button */
 .jumbotron {
+  padding-top: 100px;
   background-color: rgba(0, 0, 0, 0);
 
 }
 .jumbotron h1 {
   color: #e41b17;
-  margin-bottom: 100px
+  margin-bottom: 100px;
+
 }
 
 .jumbotron i {
@@ -274,7 +276,7 @@ body {
   background: #fff
 }
 .page .back h2 {
-  margin-top: 0px;
+  margin-top: 100px;
   line-height: 100px;
   color: #fff;
   font-size: 40px;

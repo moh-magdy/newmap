@@ -15,7 +15,7 @@
     <div class="header text-center">
       <div class="head-img">
           <div class="overlay">
-            <div class="jumbotron">
+            <div class="jumbotron wow bounceIn" data-wow-delay="1s">
               <h1>مابلينك طريقك للعالم</h1>
               <p class="lead">أنتقل مباشرة لما تريد</p>
               <a data-scroll href="#scroll">

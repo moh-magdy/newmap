@@ -50,11 +50,11 @@ include 'init.php';
         } elseif($mod == 'imgDesign') { ?>
 
           <div class="page"><!-- start page -->
-            <div class="back text-center">
-              <h2>تصميم الرسومات</h2>
+            <div class="back text-center ">
+              <h2 class="wow fadeInRightBig" data-wow-delay="1s">تصميم الرسومات</h2>
               <nav class="navbar navbar-default">
               <div class="container">
-                  <div class="controls text-center"> <!-- start controls container -->
+                  <div class="controls text-center wow lightSpeedIn" data-wow-delay="1.5s"> <!-- start controls container -->
                     <button type="button" class="control btn-default" data-filter=".cat-1">الالوان</button>
                     <button type="button" class="control btn-default" data-filter=".cat-2">الخطوط</button>
                     <button type="button" class="control btn-default" data-filter=".cat-3">cat-3</button>
@@ -70,7 +70,7 @@ include 'init.php';
                         <!-- category -->
 
 
-          <div class="container" id="container"> <!-- start container -->
+          <div class="container wow fadeInLeft " data-wow-delay="2.5s" id="container"> <!-- start container -->
             <div class="row">
 <?php
 
@@ -234,7 +234,7 @@ include 'init.php';
         } elseif ($mod == 'Mobile') {?>
 
           <h2>Mobile</h2>
-          
+
 
 <?php
 
