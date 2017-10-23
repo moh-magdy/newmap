@@ -215,7 +215,8 @@ body {
   width: 150px;
   font-size: 20px;
   font-weight: bold;
-  background-color: #e41b17
+  background-color: #e41b17;
+  margin-bottom: 10px
 }
 .add-comment {
 
@@ -228,7 +229,12 @@ body {
   width: 100%
 }
 .add-comment .cont {
-  width: 100%
+  width: 100%;
+  padding-top: 65px
+}
+.add-comment .cont .list-group-item {
+  width:80%;
+  margin-left: 10%
 }
 
 /* end form-1 section */
