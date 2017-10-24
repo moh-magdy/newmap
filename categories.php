@@ -84,11 +84,11 @@ include 'init.php';
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
                      <div class="star-grop">
-                       <i class="fa fa-star" aria-hidden="true"></i>
-                       <i class="fa fa-star" aria-hidden="true"></i>
-                       <i class="fa fa-star" aria-hidden="true"></i>
-                       <i class="fa fa-star" aria-hidden="true"></i>
-                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
@@ -108,6 +108,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -126,6 +133,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -145,6 +159,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -163,6 +184,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -181,6 +209,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -200,6 +235,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -250,6 +292,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -268,6 +317,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -286,6 +342,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -305,6 +368,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -323,6 +393,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -341,6 +418,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -395,6 +479,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -413,6 +504,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -431,6 +529,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -450,6 +555,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -468,6 +580,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -486,6 +605,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -505,6 +631,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                      <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -556,6 +689,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -574,6 +714,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -592,6 +739,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -611,6 +765,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -629,6 +790,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -679,6 +847,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -697,6 +872,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -715,6 +897,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -734,6 +923,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -752,6 +948,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
@@ -800,6 +1003,13 @@ include 'init.php';
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">
                      <h3><?php echo $web['Name'] ; ?></h3>
+                     <div class="star-grop">
+                       <i class="fa fa-star <?php if($web['Stars'] >= 1){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 2){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 3){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 4){echo 'gold';} ?>" aria-hidden="true"></i>
+                       <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
+                     </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
                      <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
