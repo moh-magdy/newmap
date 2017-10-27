@@ -120,22 +120,22 @@
 
               <h2>شاركنا بموقع او رابط</h2>
 
-              <form action="insertForms.php?mod=insertWeb" method="POST">
+              <form onsubmit="event.preventDefault();">
 
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="اسم الموقع">
-                  <input type="hidden" name="cat_id" class="form-control" value="1000">
+                  <input type="text"  class="form-control" id="nameWeb" placeholder="اسم الموقع">
+                  <input type="hidden" id="cat_id" class="form-control" value="1000">
                 </div>
 
                 <div class="form-group">
-                  <input type="text" name="domain" class="form-control" id="formGroupExampleInput2" placeholder="رابط الموقع">
+                  <input type="text" class="form-control" id="domain" placeholder="رابط الموقع">
                 </div>
 
                 <div class="form-group">
-                  <textarea name="description" class="form-control" id="exampleTextarea" rows="3" placeholder="نبذة عن الموقع"></textarea>
+                  <textarea class="form-control" id="description" rows="3" placeholder="نبذة عن الموقع"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-danger">مشاركة</button>
+                <button type="submit" onclick="manageData('addNew')" class="btn btn-danger">مشاركة</button>
 
               </form>
             </div>
@@ -156,7 +156,7 @@
                 <form action="insertForms.php?mod=insertComment" method="post">
 
                   <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="formGroupExampleInput3" placeholder="الأسم">
+                    <input type="text" name="name" class="form-control" id="3" placeholder="الأسم">
                   </div>
 
                   <div class="form-group">

@@ -49,3 +49,43 @@ $(document).ready(function(){
      });
 
 });
+
+function isNotEmpty(caller) {
+    "use strict";
+    if (caller.val() === '') {
+        caller.css('border', '1px solid red');
+        return false;
+    } else {
+        caller.css('border', '');
+        return true;
+    }
+}
+
+
+function manageData(key) {
+    "use strict";
+    var catId = $("#cat_id");
+    var name    = $("#nameWeb");
+    var domain  = $("#domain");
+    var desc    = $("#description");
+
+    if (isNotEmpty(name) && isNotEmpty(domain) && isNotEmpty(desc)) {
+
+        $.ajax({
+            url: 'insertjs.php',
+            method: 'POST',
+            dataType: 'text',
+            data: {
+                key: key,
+                catId: catId.val(),
+                name: name.val(),
+                domain: domain.val(),
+                desc: desc.val()
+            }
+        }).done(function (response) {
+            alert(response);
+        }).fail(function () {
+            alert('Error');
+        });
+    }
+}
