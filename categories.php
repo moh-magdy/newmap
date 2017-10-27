@@ -1033,11 +1033,29 @@ include 'init.php';
                     <div class="container">
                     <h2>من نحن</h2>
                       <div class="row">
-                        <div class="col-sm-12 col-md-6">
-                          
+                        <div class="col-sm-12 col-md-6 us">
+                        <img src="layout\imgs\kamal.jpg" alt="..." class="img-rounded">
+                        <h3>كمال طبش</h3>
+                        <h4>back end dev</h4>
+                        <div class="icons">
+                          <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
                         </div>
-                        <div class="col-sm-12 col-md-6">
-                         
+                        </div>
+                        <div class="col-sm-12 col-md-6 us">
+                        <img src="layout\imgs\magdy.jpg" alt="..." class="img-rounded">
+                        <h3>محمد مجدي</h3>
+                        <h4>front end dev</h4>
+                        <div class="icons">
+                          <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                          <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+                        </div>
                         </div>
                       </div>
                     </div>
