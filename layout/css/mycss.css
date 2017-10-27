@@ -343,10 +343,42 @@
   padding-bottom: 15px;
   font-size: 18px
 }
-.gold {
-  color: #f39c12
-}
+.page .cont-us {
+  background: #222;
 
+}
+.page .cont-us h2 {
+  margin-top: 150px;
+  color: #e41b17;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px 
+}
+.page .cont-us .size {
+ max-width: 500px;
+ margin: 10px auto
+}
+.page .cont-us .size .form-group input {
+  text-align: right;
+  font-size: 22px;
+  padding:  20px;
+  margin-bottom: 20px
+}
+.page .cont-us .size .form-group textarea {
+  text-align: right;
+  font-size: 22px;
+  padding:  20px;
+  min-height: 180px;
+  margin-bottom: 20px
+
+}
+.page .cont-us .size button {
+  padding: 10px;
+  width: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #e41b17;
+}
 /* 404 page */
 .o-4 .fa-chain-broken {font-size: 300px}
 .o-4 {padding-top: 100px}

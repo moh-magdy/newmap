@@ -1028,14 +1028,41 @@ include 'init.php';
                 //############## service provider Page ###############7
         } elseif ($mod == 'serviceProvider') {?>
 
-                <h1>welcome service provider</h1>
+                <div class="page">
+
+                </div>
 
 
 <?php
                 //###################### call us Page ################8
         } elseif ($mod == 'callUs') {?>
 
-                <h1>welcome call us</h1>
+                <div class="page">
+                  <div class="cont-us text-center">
+                    <div class="container">
+                    <h2>اتصل بنا</h2>
+                      <div class="row">
+                        <div class="col-sm-12 ">
+                          <div class="size">
+                          <form>
+                            <div class="form-group">
+                              <input type="email" class="form-control" placeholder="البريد الالكتروني">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="الموضوع">
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" name="comment"  rows="3" placeholder="تعليقك هنا"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-danger">راسلنا</button>
+                          </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
 <?php
         } else {

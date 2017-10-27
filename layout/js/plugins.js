@@ -3,6 +3,7 @@
 
 $(document).ready(function(){
     $('.page').css('min-height', $(window).height());
+    $('.cont-us').css('min-height', $(window).height());
 
 		// init SmoothScroll
 		var scroll = new SmoothScroll('a[href*="#"]', {
