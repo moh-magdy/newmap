@@ -34,7 +34,7 @@
 
       </div> <!-- container -->
       <div class="mark text-center">
-        tread mark
+      All rights reserved 2017 &reg; Developed by 'Kamal tabash' &amp; Designed by 'mohamed magdy'
       </div>
     </div>
 

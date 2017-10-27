@@ -1028,9 +1028,22 @@ include 'init.php';
                 //############## service provider Page ###############7
         } elseif ($mod == 'serviceProvider') {?>
 
-                <div class="page">
+                  <div class="page">
+                  <div class="cont-us text-center">
+                    <div class="container">
+                    <h2>من نحن</h2>
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          d
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                         d 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
 
-                </div>
 
 
 <?php
