@@ -34,7 +34,7 @@
         <div class="cont text-center">
           <h2 id="scroll" class="wow fadeInRight" data-wow-offset="100">هدفنا</h2>
           <p class="lead wow fadeInRight" data-wow-offset="100">
-            يهدف الموقع ليكون المرجع الأول والأخير لكي تجد ضالتك من أفضل المواقع ضمن مجالك ونأمل أن تشاركونا بهذه التجرية بأضافة محتوى للمرجع
+            يهدف الموقع ليكون المرجع الأول والأخير لكي تجد ضالتك بين أفضل المواقع ضمن مجالك ونأمل أن تشاركونا بهذه التجربة بأضافة محتوى للمرجع
           </p>
 
           <p class="lead wow fadeInRight" data-wow-offset="100">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
@@ -50,7 +50,7 @@
 
           <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=programmingWeb"><div class="thumbnail">
-              <img src="http://via.placeholder.com/350x300" alt="...">
+              <img src="layout\imgs\web-dv.jpeg" alt="...">
               <div class="caption">
                 <h3>برمجه ويب</h3>
               </div>
@@ -59,7 +59,7 @@
 
           <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=imgDesign"><div class="thumbnail">
-              <img src="http://via.placeholder.com/350x300" alt="...">
+              <img src="layout\imgs\img-d.jpg" alt="...">
               <div class="caption">
                 <h3>تصميم الرسومات</h3>
               </div>
@@ -68,7 +68,7 @@
 
           <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=webDesign"><div class="thumbnail">
-              <img src="http://via.placeholder.com/350x300" alt="...">
+              <img src="layout\imgs\web-d.jpeg" alt="...">
               <div class="caption">
                 <h3>تصميم ويب</h3>
               </div>
@@ -77,7 +77,7 @@
 
           <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=More"><div class="thumbnail">
-              <img src="http://via.placeholder.com/350x300" alt="...">
+              <img src="layout\imgs\next.jpeg" alt="...">
               <div class="caption">
                 <h3>..المزيد</h3>
               </div>
@@ -86,7 +86,7 @@
 
           <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=Mobile"><div class="thumbnail">
-              <img src="http://via.placeholder.com/350x300" alt="...">
+              <img src="layout\imgs\mob-d.jpeg" alt="...">
               <div class="caption">
                 <h3>برمجه تطبيقات الموبايل</h3>
               </div>
@@ -95,7 +95,7 @@
 
           <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
           <a href="categories.php?mod=programmingDesktop"><div class="thumbnail">
-              <img src="http://via.placeholder.com/350x300" alt="...">
+              <img src="layout\imgs\dt.jpeg" alt="...">
               <div class="caption">
                 <h3>برمجه تطبيقات الدسك توب</h3>
               </div>
