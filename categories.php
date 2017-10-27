@@ -91,7 +91,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -116,7 +116,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -141,7 +141,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -167,7 +167,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -192,7 +192,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -217,7 +217,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -243,7 +243,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -300,7 +300,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -325,7 +325,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -350,7 +350,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -376,7 +376,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -401,7 +401,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -426,7 +426,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -487,7 +487,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -512,7 +512,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -537,7 +537,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -563,7 +563,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -588,7 +588,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -613,7 +613,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -639,7 +639,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -697,7 +697,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -722,7 +722,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -747,7 +747,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -773,7 +773,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -798,7 +798,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -855,7 +855,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -880,7 +880,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -905,7 +905,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -931,7 +931,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -956,7 +956,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
@@ -977,7 +977,7 @@ include 'init.php';
 
         <div class="page"><!-- start page -->
             <div class="back text-center ">
-              <h2 class="wow fadeInRightBig" >موبايل</h2>
+              <h2 class="wow fadeInRightBig" >المزيد</h2>
               <nav class="navbar navbar-default">
               <div class="container">
                   <div class="controls text-center wow lightSpeedIn" data-wow-delay="1s"> <!-- start controls container -->
@@ -1011,7 +1011,7 @@ include 'init.php';
                        <i class="fa fa-star <?php if($web['Stars'] >= 5){echo 'gold';} ?>" aria-hidden="true"></i>
                      </div>
                       <p class="lead"><?php echo $web['Description'] ; ?></p>
-                     <p><a href="<?php echo $web['Domain'] ; ?>" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
+                     <p><a href="<?php echo $web['Domain'] ; ?>" target="_blank" class="btn btn-danger" role="button"><?php echo $goLink; ?></a></p>
                    </div>
                  </div>
               </div>
