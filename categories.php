@@ -1034,10 +1034,10 @@ include 'init.php';
                     <h2>من نحن</h2>
                       <div class="row">
                         <div class="col-sm-12 col-md-6">
-                          d
+                          
                         </div>
                         <div class="col-sm-12 col-md-6">
-                         d 
+                         
                         </div>
                       </div>
                     </div>
