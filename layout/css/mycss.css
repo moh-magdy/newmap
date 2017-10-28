@@ -2,7 +2,7 @@
 /* main roles */
 *{box-sizing: border-box}
 body {
-  font-family: 'Mirza', cursive;
+  font-family: 'Cairo', sans-serif;
 }
 /* main navbar */
 .navbar {min-height: 71px;}
