@@ -326,7 +326,7 @@ body {
   margin-bottom: 20px;
 }
 #container .thumbnail {
-  height: 370px;
+  height: 350px;
 
 }
 #container .thumbnail a {
@@ -338,6 +338,9 @@ body {
   bottom: 30px;
   left: 30%;
   width: 40%
+}
+#container .thumbnail p {
+  font-size: 18px
 }
 #container .thumbnail img {
   width: 100px;
