@@ -19,3 +19,7 @@ catch (PDOException $e) {
     echo 'Failed to connect to the database';
 
 }
+
+/* Contant For Insert In Index Page  */
+$conn = new mysqli('localhost', 'root', '', 'myshortcuts');
+$conn ->set_charset("utf8");

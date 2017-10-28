@@ -15,41 +15,9 @@ $(document).ready(function(){
 
 		});
 
-		// init mix-it-up
-		var containerEl = document.querySelector('#container');
-
-		var mixer = mixitup(containerEl, {
-		    controls: {
-		        toggleDefault: 'none'
-		    }
-		});
-
-		mixer.toggleOn('.cat-1');
-
-    // nac active class add !!!!!
-
-    // Get current page URL
-     var url = window.location.href;
-
-     // select file name
-     url = url.substr(url.lastIndexOf("/") + 1);
-
-     // Loop all menu items
-     $('#navto li').each(function(){
-
-      // select href
-      var href = $(this).find('a').attr('href');
-
-      // Check filename
-      if(url == href){
-
-       // Add active class
-       $(this).addClass('active');
-      }
-     });
-
+		
 });
-
+/* Function input is empty  v 1.0 */
 function isNotEmpty(caller) {
     "use strict";
     if (caller.val() === '') {
@@ -61,8 +29,8 @@ function isNotEmpty(caller) {
     }
 }
 
-
-function manageData(key) {
+/* Function Insert addWebsites  v 1.0 */
+function addWebsites(key) {
     "use strict";
     var catId = $("#cat_id");
     var name    = $("#nameWeb");
@@ -75,6 +43,7 @@ function manageData(key) {
             url: 'insertjs.php',
             method: 'POST',
             dataType: 'text',
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
             data: {
                 key: key,
                 catId: catId.val(),
@@ -83,7 +52,38 @@ function manageData(key) {
                 desc: desc.val()
             }
         }).done(function (response) {
-            alert(response);
+            $('#sweetalert').append(response);
+        }).fail(function () {
+            alert('Error');
+        });
+    }
+}
+
+
+/* Function Insert addWebsites  v 1.0 */
+function addWebsites(key) {
+    "use strict";
+    var catId = $("#cat_id");
+    var name = $("#nameWeb");
+    var domain = $("#domain");
+    var desc = $("#description");
+
+    if (isNotEmpty(name) && isNotEmpty(domain) && isNotEmpty(desc)) {
+
+        $.ajax({
+            url: 'insertjs.php',
+            method: 'POST',
+            dataType: 'text',
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            data: {
+                key: key,
+                catId: catId.val(),
+                name: name.val(),
+                domain: domain.val(),
+                desc: desc.val()
+            }
+        }).done(function (response) {
+            $('#alert').append(response);
         }).fail(function () {
             alert('Error');
         });

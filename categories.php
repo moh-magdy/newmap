@@ -1105,6 +1105,7 @@ include 'init.php';
 
 //End Page
 
-        include $tpl . "footer.php";
-
+        include $tpl . "footer.php";?>
+        <script src="<?php echo $js ?>mixup.js"></script>
+<?php
     ob_end_flush(); // Headers Sent
