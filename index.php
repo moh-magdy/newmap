@@ -132,7 +132,7 @@
                 </div>
 
                 <div class="form-group">
-                  <textarea class="form-control" id="description" rows="3" placeholder="نبذة عن الموقع"></textarea>
+                  <textarea class="form-control" id="description" maxlength="55" rows="3" placeholder="نبذة عن الموقع"></textarea>
                 </div>
 
                 <button type="submit" onclick="addWebsites('addNew')" class="btn btn-danger">مشاركة</button>
