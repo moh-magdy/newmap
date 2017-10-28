@@ -199,7 +199,7 @@
     <!-- end forms seactions -->
 
     <!-- Response Insert  -->
-    <div id="sweetalert"></div>
+    <div id="alert"></div>
 
 <!-- Include Footer -->
 <?php

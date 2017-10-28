@@ -1,10 +1,13 @@
+<?php 
+    include 'init.php';
+?>
+
+<script src="<?php echo $js ?>sweetalert2.min.js"></script>
+
 <?php
 
-    include 'init.php';
 	if (isset($_POST['key'])) {
 
-        $conn = new mysqli('localhost', 'root', '', 'myshortcuts');
-        $conn ->set_charset("utf8");
             $catId  = $conn->real_escape_string($_POST['catId']);
             $name   = $conn->real_escape_string($_POST['name']);
             $doma   = $conn->real_escape_string($_POST['domain']);
@@ -13,9 +16,12 @@
             
             $nameFilter = filter_var($name,FILTER_SANITIZE_STRING);
             $domaFilter = filter_var($doma,FILTER_SANITIZE_STRING);
-            $descFilter = filter_var($desc,FILTER_SANITIZE_STRING);?>
-            <script src="<?php echo $js ?>sweetalert2.min.js"></script>
-<?php
+            $descFilter = filter_var($desc,FILTER_SANITIZE_STRING);
+            
+
+
+
+
      if ($_POST['key'] == 'addNew') {
 			$sql = $conn->query("SELECT id FROM websites WHERE Domain = '$doma'");
 			if ($sql->num_rows > 0)

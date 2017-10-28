@@ -58,3 +58,34 @@ function addWebsites(key) {
         });
     }
 }
+
+
+/* Function Insert addWebsites  v 1.0 */
+function addWebsites(key) {
+    "use strict";
+    var catId = $("#cat_id");
+    var name = $("#nameWeb");
+    var domain = $("#domain");
+    var desc = $("#description");
+
+    if (isNotEmpty(name) && isNotEmpty(domain) && isNotEmpty(desc)) {
+
+        $.ajax({
+            url: 'insertjs.php',
+            method: 'POST',
+            dataType: 'text',
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            data: {
+                key: key,
+                catId: catId.val(),
+                name: name.val(),
+                domain: domain.val(),
+                desc: desc.val()
+            }
+        }).done(function (response) {
+            $('#alert').append(response);
+        }).fail(function () {
+            alert('Error');
+        });
+    }
+}
