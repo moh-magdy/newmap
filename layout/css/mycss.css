@@ -3,13 +3,7 @@
 *{box-sizing: border-box}
 
 /* main navbar */
-.navbar {
-  min-height: 71px;
-
-
-}
-/* Alert Button*/
-.swal2-confirm, .swal2-styled{display: none;}
+.navbar {min-height: 71px;}
 
 /* navbar link*/
 

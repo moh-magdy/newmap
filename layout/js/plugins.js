@@ -61,8 +61,8 @@ function isNotEmpty(caller) {
     }
 }
 
-
-function manageData(key) {
+/* Function Insert addWebsites  v 1.0 */
+function addWebsites(key) {
     "use strict";
     var catId = $("#cat_id");
     var name    = $("#nameWeb");
@@ -75,6 +75,7 @@ function manageData(key) {
             url: 'insertjs.php',
             method: 'POST',
             dataType: 'text',
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
             data: {
                 key: key,
                 catId: catId.val(),
@@ -83,7 +84,7 @@ function manageData(key) {
                 desc: desc.val()
             }
         }).done(function (response) {
-            alert(response);
+            $('#sweetalert').append(response);
         }).fail(function () {
             alert('Error');
         });
