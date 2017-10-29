@@ -193,7 +193,8 @@ body {
 .add-site .form .form-control {
   text-align: right;
   font-size: 22px;
-  padding:  20px
+  padding: 5px;
+  height: 45px
 }
 .add-comment .form textarea,
 .add-site .form textarea {
@@ -247,8 +248,10 @@ body {
 .footer input {
   text-align: right;
   font-size: 22px;
-  padding:  20px
+  padding: 5px;
+  height: 45px
 }
+
 .footer i {
   padding-left: 5px
 }
@@ -360,7 +363,7 @@ body {
   color: #e41b17;
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 20px 
+  margin-bottom: 20px
 }
 .page .cont-us .size {
  max-width: 500px;
@@ -369,7 +372,8 @@ body {
 .page .cont-us .size .form-group input {
   text-align: right;
   font-size: 22px;
-  padding:  20px;
+  padding: 5px;
+  height: 45px;
   margin-bottom: 20px
 }
 .page .cont-us .size .form-group textarea {
@@ -400,7 +404,7 @@ body {
 .page .us h3 {
   font-size: 35px;
   font-weight: bold;
-  
+
 }
 .page .us img {
   width: 80%;
