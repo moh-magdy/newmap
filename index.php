@@ -32,12 +32,12 @@
     <section class="about">
       <div class="container">
         <div class="cont text-center">
-          <h2 id="scroll" class="wow fadeInRight" data-wow-offset="100">هدفنا</h2>
-          <p class="lead wow fadeInRight" data-wow-offset="100">
+          <h2 id="scroll" class="wow fadeInRight"data-wow-offset="0">هدفنا</h2>
+          <p class="lead wow fadeInRight"data-wow-offset="0">
             يهدف الموقع ليكون المرجع الأول والأخير لكي تجد ضالتك بين أفضل المواقع ضمن مجالك ونأمل أن تشاركونا بهذه التجربة بأضافة محتوى للمرجع
           </p>
 
-          <p class="lead wow fadeInRight" data-wow-offset="100">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
+          <p class="lead wow fadeInRight"data-wow-offset="0">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
         </div>
       </div>
     </section>
@@ -48,7 +48,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="0" data-wow-duration="1s">
           <a href="categories.php?mod=programmingWeb"><div class="thumbnail">
               <img src="layout\imgs\web-dv.jpeg" alt="...">
               <div class="caption">
@@ -57,7 +57,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="0" data-wow-duration="1s">
           <a href="categories.php?mod=imgDesign"><div class="thumbnail">
               <img src="layout\imgs\img-d.jpg" alt="...">
               <div class="caption">
@@ -66,7 +66,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="0" data-wow-duration="1s">
           <a href="categories.php?mod=webDesign"><div class="thumbnail">
               <img src="layout\imgs\web-d.jpeg" alt="...">
               <div class="caption">
@@ -75,7 +75,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="0" data-wow-duration="1s">
           <a href="categories.php?mod=More"><div class="thumbnail">
               <img src="layout\imgs\next.jpeg" alt="...">
               <div class="caption">
@@ -84,7 +84,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="0" data-wow-duration="1s">
           <a href="categories.php?mod=Mobile"><div class="thumbnail">
               <img src="layout\imgs\mob-d.jpeg" alt="...">
               <div class="caption">
@@ -93,7 +93,7 @@
             </div></a>
           </div>
 
-          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="400" data-wow-duration="1s">
+          <div class="col-sm-6 col-md-4 wow bounceIn" data-wow-offset="0" data-wow-duration="1s">
           <a href="categories.php?mod=programmingDesktop"><div class="thumbnail">
               <img src="layout\imgs\dt.jpeg" alt="...">
               <div class="caption">
@@ -112,10 +112,10 @@
     <section class="add-site">
       <div class="container">
         <div class="row">
-          <div class="img col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="50">
+          <div class="img col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="0">
             <img src="layout/imgs/add.jpeg" alt="">
           </div>
-          <div class="form col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="50">
+          <div class="form col-xs-12 col-md-6 wow fadeInRight" data-wow-offset="0">
             <div class="cont pull-right">
 
               <h2>شاركنا بموقع او رابط</h2>
@@ -149,7 +149,7 @@
       <div class="container">
         <div class="row">
 
-            <div class="form col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="50">
+            <div class="form col-xs-12 col-md-6 wow fadeInLeft" data-wow-offset="0">
               <div class="smi-pull">
                <h2>شاركنا بتعليقك</h2>
 
@@ -168,7 +168,7 @@
                 </form>
               </div>
               <div class="cont text-right">
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight " data-wow-offset="50">
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight " data-wow-offset="0">
                       <div class="list-group">
                         <a  class="list-group-item ">
                           <h4 class="list-group-item-heading">اسم المستخدم</h4>
