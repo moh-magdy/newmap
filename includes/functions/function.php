@@ -56,3 +56,14 @@ function redirectHome($theMsg, $url= null, $seconds = 3) {
             return $catz;
 
         }
+
+        function getLatest($select, $table, $order, $limit = 4) {
+                
+           global $contant;
+                
+           $getStmt = $contant->prepare("SELECT $select FROM $table ORDER BY $order DESC LIMIT $limit");
+                
+            $getStmt->execute();
+            $rows = $getStmt->fetchAll();
+            return $rows;
+        }

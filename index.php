@@ -153,40 +153,41 @@
               <div class="smi-pull">
                <h2>شاركنا بتعليقك</h2>
 
-                <form action="insertForms.php?mod=insertComment" method="post">
+                <form onsubmit="event.preventDefault();">
 
                   <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="3" placeholder="الأسم">
+                    <input type="text" class="form-control" id="nameCom" placeholder="الأسم">
                   </div>
 
                   <div class="form-group">
-                    <textarea class="form-control" name="comment" id="exampleTextarea2" rows="3" placeholder="تعليقك هنا"></textarea>
+                    <textarea class="form-control" id="comment" rows="3" placeholder="تعليقك هنا"></textarea>
                   </div>
 
-                  <button type="submit" class="btn btn-danger">مشاركة</button>
+                  <button type="submit" onclick="addComment('addNewCom')" class="btn btn-danger">مشاركة</button>
                 </div>
                 </form>
               </div>
+<?php
+    $numComment = 3; // Number of Latest comments
+    $stucomments = getLatest("*", "comments", "ID", $numComment); // Latest comments Array
+?>
               <div class="cont text-right">
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight " data-wow-offset="50">
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight " data-wow-offset="50">            
+<?php
+
+            foreach ($stucomments as $stComm) {
+                if($stComm['Status'] == 1){?>
+            
                       <div class="list-group">
                         <a  class="list-group-item ">
-                          <h4 class="list-group-item-heading">اسم المستخدم</h4>
-                          <p class="list-group-item-text">تعليق هنا</p>
+                          <h4 class="list-group-item-heading"><?php echo $stComm['Name'] ?></h4>
+                          <p class="list-group-item-text"><?php echo $stComm['Comment'] ?></p>
                         </a>
                       </div>
-                      <div class="list-group">
-                        <a  class="list-group-item ">
-                          <h4 class="list-group-item-heading">اسم المستخدم</h4>
-                          <p class="list-group-item-text">تعليق هنا </p>
-                        </a>
-                      </div>
-                      <div class="list-group">
-                        <a class="list-group-item ">
-                          <h4 class="list-group-item-heading">اسم المستخدم</h4>
-                          <p class="list-group-item-text">تعليق هنا</p>
-                        </a>
-                      </div>
+<?php
+                     }
+                 }
+                        ?>   
 
                     </div>
                   </div>

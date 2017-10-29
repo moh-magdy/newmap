@@ -10,13 +10,13 @@
         <div class="row">
 
           <div class="col-xs-12 col-md-6">
-            <form action="insertForms.php?mod=insertEmail" method="post">
+            <form onsubmit="event.preventDefault();">
               <h2>ابق علي تواصل</h2>
               <div class="form-group">
-                <input type="email" name="email" class="form-control" id="email" placeholder="البريد الالكتروني">
+                <input type="email" class="form-control" id="email" placeholder="البريد الالكتروني">
               </div>
 
-              <button type="submit" class="btn btn-default btn-danger">أرسال</button>
+              <button type="submit" onclick="addEmail('addNewEmail')" class="btn btn-default btn-danger">أرسال</button>
             </form>
           </div>
 

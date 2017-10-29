@@ -1075,18 +1075,18 @@ include 'init.php';
                       <div class="row">
                         <div class="col-sm-12 ">
                           <div class="size">
-                          <form>
+                          <form onsubmit="event.preventDefault();">
                             <div class="form-group">
-                              <input type="email" class="form-control" placeholder="البريد الالكتروني">
+                              <input type="email" id="usEmail" class="form-control" placeholder="البريد الالكتروني">
                             </div>
                             <div class="form-group">
-                              <input type="text" class="form-control" placeholder="الموضوع">
+                              <input type="text" id="theme" class="form-control" placeholder="الموضوع">
                             </div>
                             <div class="form-group">
-                              <textarea class="form-control" name="comment"  rows="3" placeholder="تعليقك هنا"></textarea>
+                              <textarea class="form-control" id="message"  rows="3" placeholder="رسالتك هنا"></textarea>
                             </div>
 
-                            <button type="submit" class="btn btn-danger">راسلنا</button>
+                            <button type="submit" onclick="addMessage('addNewMess')" class="btn btn-danger">راسلنا</button>
                           </form>
                           </div>
                         </div>
@@ -1094,7 +1094,7 @@ include 'init.php';
                     </div>
                   </div>
                 </div>
-
+              <div id="alert"></div>
 <?php
         } else {
 
