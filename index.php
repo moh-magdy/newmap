@@ -172,22 +172,12 @@
     $stucomments = getLatest("*", "comments", "ID", $numComment); // Latest comments Array
 ?>
               <div class="cont text-right">
-<<<<<<< HEAD
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight " data-wow-offset="50">            
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight" >            
 <?php
 
             foreach ($stucomments as $stComm) {
                 if($stComm['Status'] == 1){?>
-            
-=======
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight " data-wow-offset="0">
-                      <div class="list-group">
-                        <a  class="list-group-item ">
-                          <h4 class="list-group-item-heading">اسم المستخدم</h4>
-                          <p class="list-group-item-text">تعليق هنا</p>
-                        </a>
-                      </div>
->>>>>>> f65189bad94c6c896e53e6bb2dd4dc122351a18c
+
                       <div class="list-group">
                         <a  class="list-group-item ">
                           <h4 class="list-group-item-heading"><?php echo $stComm['Name'] ?></h4>
