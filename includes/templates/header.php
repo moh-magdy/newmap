@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="<?php echo $css ?>font-awesome.min.css" />
     <link rel="stylesheet" href="<?php echo $css ?>animate.css" />
     <link rel="stylesheet" href="<?php echo $css ?>mycss.css" />
+    <!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![end if]-->
+    <script src="layout/js/html5shiv.min.js"></script>
+    <script src="layout/js/js/respond.min.js"></script>
+    <![endif]-->
   </head>
 
     <body>
