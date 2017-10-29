@@ -32,7 +32,7 @@ function isNotEmpty(caller) {
 /* Function Insert addWebsites  v 1.0 */
 function addWebsites(key) {
     "use strict";
-    var catId = $("#cat_id");
+    var catId   = $("#cat_id");
     var name    = $("#nameWeb");
     var domain  = $("#domain");
     var desc    = $("#description");
@@ -63,7 +63,7 @@ function addWebsites(key) {
 /* Function Insert addComment  v 1.0 */
 function addComment(key) {
     "use strict";
-    var nameCom    = $("#nameCom");
+    var nameCom = $("#nameCom");
     var comment = $("#comment");
 
     if (isNotEmpty(nameCom) && isNotEmpty(comment)) {
