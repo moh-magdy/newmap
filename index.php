@@ -160,7 +160,7 @@
                   </div>
 
                   <div class="form-group">
-                    <textarea class="form-control" id="comment" rows="3" placeholder="تعليقك هنا"></textarea>
+                    <textarea class="form-control" id="comment" rows="3" placeholder="تعليقك هنا" maxlength="120"></textarea>
                   </div>
 
                   <button type="submit" onclick="addComment('addNewCom')" class="btn btn-danger">مشاركة</button>
@@ -172,7 +172,7 @@
     $stucomments = getLatest("*", "comments", "ID", $numComment); // Latest comments Array
 ?>
               <div class="cont text-right">
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight" >            
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight" >
 <?php
 
             foreach ($stucomments as $stComm) {
@@ -187,7 +187,7 @@
 <?php
                      }
                  }
-                        ?>   
+                        ?>
 
                     </div>
                   </div>
