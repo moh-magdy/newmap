@@ -172,7 +172,7 @@
     $stucomments = getLatest("*", "comments", "ID", $numComment); // Latest comments Array
 ?>
               <div class="cont text-right">
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight" >            
+                    <div class="img col-xs-12 col-md-6 wow fadeInRight" >           
 <?php
 
             foreach ($stucomments as $stComm) {
