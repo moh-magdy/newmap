@@ -171,12 +171,8 @@
     $numComment = 3; // Number of Latest comments
     $stucomments = getLatest("*", "comments", "ID", $numComment); // Latest comments Array
 ?>
-              <div class="cont text-right">
-<<<<<<< HEAD
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight" >           
-=======
-                    <div class="img col-xs-12 col-md-6 wow fadeInRight" >
->>>>>>> ee6666f59d1d06f0b14597729a9180f6391a5ad5
+              <div class="cont text-right">        
+                  <div class="img col-xs-12 col-md-6 wow fadeInRight" >
 <?php
 
             foreach ($stucomments as $stComm) {

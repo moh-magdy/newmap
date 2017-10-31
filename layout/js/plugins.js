@@ -53,6 +53,9 @@ function addWebsites(key) {
             }
         }).done(function (response) {
             $('#alert').append(response);
+                name.val('');
+                domain.val('');
+                desc.val('');
         }).fail(function () {
             alert('Error');
         });
@@ -80,6 +83,8 @@ function addComment(key) {
             }
         }).done(function (response) {
             $('#alert').append(response);
+                nameCom.val('');
+                comment.val('');
         }).fail(function () {
             alert('Error');
         });
@@ -100,10 +105,10 @@ function addEmail(key) {
             data: {
                 key: key,
                 email: email.val()
-
             }
         }).done(function (response) {
             $('#alert').append(response);
+                email.val('');
         }).fail(function () {
             alert('Error');
         });
@@ -132,6 +137,9 @@ function addMessage(key) {
             }
         }).done(function (response) {
             $('#alert').append(response);
+                usEmail.val('');
+                theme.val('');
+                message.val('');
         }).fail(function () {
             alert('Error');
         });

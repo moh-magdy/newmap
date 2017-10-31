@@ -11,7 +11,8 @@ try {
 
     $contant    =   new PDO($dsn, $user, $pass, $option);
     $contant->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
+    
+   
 }
 
 catch (PDOException $e) {
@@ -21,5 +22,5 @@ catch (PDOException $e) {
 }
 
 /* Contant For Insert In Index Page  */
-$conn = new mysqli('localhost', 'root', '', 'myshortcuts');
-$conn ->set_charset("utf8");
+    $conn = new mysqli('localhost', 'root', '', 'myshortcuts');
+    $conn ->set_charset("utf8");

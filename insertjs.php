@@ -1,4 +1,6 @@
 <?php 
+$noHeader   = '';
+$noNavar    = '';
     include 'init.php';
 ?>
 
