@@ -171,7 +171,7 @@
     $numComment = 3; // Number of Latest comments
     $stucomments = getLatest("*", "comments", "ID", $numComment); // Latest comments Array
 ?>
-              <div class="cont text-right">        
+              <div class="cont text-right">
                   <div class="img col-xs-12 col-md-6 wow fadeInRight" >
 <?php
 
@@ -202,6 +202,14 @@
     <!-- Response Insert  -->
     <div id="alert"></div>
 
+    <div class="loding">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </div>
 <!-- Include Footer -->
 <?php
   include $tpl . 'footer.php';
