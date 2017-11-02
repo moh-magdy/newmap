@@ -51,10 +51,10 @@ include 'init.php';
 
           <div class="page"><!-- start page -->
             <div class="back text-center ">
-              <h2 class="wow fadeInRightBig" >تصميم الرسومات</h2>
+              <h2 class="wow fadeInRightBig" data-wow-delay="1.2s" >تصميم الرسومات</h2>
               <nav class="navbar navbar-default">
               <div class="container">
-                  <div class="controls text-center wow lightSpeedIn" > <!-- start controls container -->
+                  <div class="controls text-center  wow lightSpeedIn" data-wow-delay="1.2s" > <!-- start controls container -->
                     <button type="button" class="control btn-default" data-filter=".cat-7">المزيد</button>
                     <button type="button" class="control btn-default" data-filter=".cat-6">الصور</button>
                     <button type="button" class="control btn-default" data-filter=".cat-5">مدارس</button>
@@ -70,7 +70,7 @@ include 'init.php';
                         <!-- category -->
 
 
-          <div class="container wow fadeInLeft "  id="container"> <!-- start container -->
+          <div class="container  wow fadeInLeft " data-wow-delay="1.2s"  id="container"> <!-- start container -->
             <div class="row">
 <?php
 
@@ -261,10 +261,10 @@ include 'init.php';
 
           <div class="page"><!-- start page -->
             <div class="back text-center ">
-              <h2 class="wow fadeInRightBig" >تصميم ويب</h2>
+              <h2 class="wow fadeInRightBig" data-wow-delay="1.2s" >تصميم ويب</h2>
               <nav class="navbar navbar-default">
               <div class="container">
-                  <div class="controls text-center wow lightSpeedIn" > <!-- start controls container -->
+                  <div class="controls text-center  wow lightSpeedIn" data-wow-delay="1.2s" > <!-- start controls container -->
                     <button type="button" class="control btn-default" data-filter=".cat-5">المزيد</button>
                     <button type="button" class="control btn-default" data-filter=".cat-4">مدارس</button>
                     <button type="button" class="control btn-default" data-filter=".cat-2">برامج</button>
@@ -279,7 +279,7 @@ include 'init.php';
                         <!-- category -->
 
 
-          <div class="container wow fadeInLeft "  id="container"> <!-- start container -->
+          <div class="container  wow fadeInLeft " data-wow-delay="1.2s"  id="container"> <!-- start container -->
             <div class="row">
 <?php
 
@@ -446,10 +446,10 @@ include 'init.php';
 
           <div class="page"><!-- start page -->
             <div class="back text-center ">
-              <h2 class="wow fadeInRightBig" >برمجة ويب</h2>
+              <h2 class="wow fadeInRightBig" data-wow-delay="1.2s" >برمجة ويب</h2>
               <nav class="navbar navbar-default">
               <div class="container">
-                  <div class="controls text-center wow lightSpeedIn" > <!-- start controls container -->
+                  <div class="controls text-center  wow lightSpeedIn" data-wow-delay="1.2s" > <!-- start controls container -->
                     <button type="button" class="control btn-default" data-filter=".cat-6">المزيد</button>
                     <button type="button" class="control btn-default" data-filter=".cat-5">مدارس</button>
                     <button type="button" class="control btn-default" data-filter=".cat-4">دعم</button>
@@ -466,7 +466,7 @@ include 'init.php';
                         <!-- category -->
 
 
-          <div class="container wow fadeInLeft "  id="container"> <!-- start container -->
+          <div class="container  wow fadeInLeft " data-wow-delay="1.2s"  id="container"> <!-- start container -->
             <div class="row">
 <?php
 
@@ -659,10 +659,10 @@ include 'init.php';
 
                     <div class="page"><!-- start page -->
             <div class="back text-center ">
-              <h2 class="wow fadeInRightBig" > دسك توب</h2>
+              <h2 class="wow fadeInRightBig" data-wow-delay="1.2s" > دسك توب</h2>
               <nav class="navbar navbar-default">
               <div class="container">
-                  <div class="controls text-center wow lightSpeedIn" > <!-- start controls container -->
+                  <div class="controls text-center  wow lightSpeedIn" data-wow-delay="1.2s" > <!-- start controls container -->
                     <button type="button" class="control btn-default" data-filter=".cat-5">المزيد</button>
                     <button type="button" class="control btn-default" data-filter=".cat-4">مدارس</button>
                     <button type="button" class="control btn-default" data-filter=".cat-3">دعم</button>
@@ -676,7 +676,7 @@ include 'init.php';
                         <!-- category -->
 
 
-          <div class="container wow fadeInLeft "  id="container"> <!-- start container -->
+          <div class="container  wow fadeInLeft " data-wow-delay="1.2s"  id="container"> <!-- start container -->
             <div class="row">
 <?php
 
@@ -817,10 +817,10 @@ include 'init.php';
 
         <div class="page"><!-- start page -->
             <div class="back text-center ">
-              <h2 class="wow fadeInRightBig" >موبايل</h2>
+              <h2 class="wow fadeInRightBig" data-wow-delay="1.2s" >موبايل</h2>
               <nav class="navbar navbar-default">
               <div class="container">
-                  <div class="controls text-center wow lightSpeedIn" > <!-- start controls container -->
+                  <div class="controls text-center  wow lightSpeedIn" data-wow-delay="1.2s" > <!-- start controls container -->
                     <button type="button" class="control btn-default" data-filter=".cat-5">المزيد</button>
                     <button type="button" class="control btn-default" data-filter=".cat-4">مدارس</button>
                     <button type="button" class="control btn-default" data-filter=".cat-3">دعم</button>
@@ -834,7 +834,7 @@ include 'init.php';
                         <!-- category -->
 
 
-          <div class="container wow fadeInLeft "  id="container"> <!-- start container -->
+          <div class="container  wow fadeInLeft " data-wow-delay="1.2s"  id="container"> <!-- start container -->
             <div class="row">
 <?php
 
@@ -977,10 +977,10 @@ include 'init.php';
 
         <div class="page"><!-- start page -->
             <div class="back text-center ">
-              <h2 class="wow fadeInRightBig" >المزيد</h2>
+              <h2 class="wow fadeInRightBig" data-wow-delay="1.2s" >المزيد</h2>
               <nav class="navbar navbar-default">
               <div class="container">
-                  <div class="controls text-center wow lightSpeedIn" > <!-- start controls container -->
+                  <div class="controls text-center  wow lightSpeedIn" data-wow-delay="1.2s" > <!-- start controls container -->
                     <button type="button" class="control btn-default" data-filter=".cat-1">بدون تصنيف</button>
                 </div>
               </div> <!-- end controls container -->
@@ -990,7 +990,7 @@ include 'init.php';
                         <!-- category -->
 
 
-          <div class="container wow fadeInLeft "  id="container"> <!-- start container -->
+          <div class="container  wow fadeInLeft " data-wow-delay="1.2s"  id="container"> <!-- start container -->
             <div class="row">
 <?php
 
