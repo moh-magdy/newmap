@@ -33,11 +33,11 @@
       <div class="container">
         <div class="cont text-center">
           <h2 id="scroll" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="1.5s">هدفنا</h2>
-          <p class="lead wow fadeInRight"data-wow-offset="0" data-wow-delay="1.5s">
+          <p class="lead wow fadeInRight"data-wow-offset="0" data-wow-delay="">
             يهدف الموقع ليكون المرجع الأول والأخير لكي تجد ضالتك بين أفضل المواقع ضمن مجالك ونأمل أن تشاركونا بهذه التجربة بأضافة محتوى للمرجع
           </p>
 
-          <p class="lead wow fadeInRight"data-wow-offset="0" data-wow-delay="1.5s">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
+          <p class="lead wow fadeInRight"data-wow-offset="0" data-wow-delay="">"العلم ما نَفَع و ليس العلم ما حُفِظ"</p>
         </div>
       </div>
     </section>

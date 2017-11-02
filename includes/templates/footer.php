@@ -21,14 +21,26 @@
           </div>
 
           <div class="col-xs-12 col-md-6">
-            <h2>تابعنا</h2>
-            <div class="icons">
-              <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
-              <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-              <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
-              <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
-              <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
-            </div>
+            <div class="col-xs-12 col-sm-6">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="#" class="list-group-item"><span class="badge">1422</span>برمجه الويب</a>
+                  <a href="#" class="list-group-item"><span class="badge">1486</span>برمجه الويب</a>
+                  <a href="#" class="list-group-item"><span class="badge">199</span>برمجه الويب</a>
+                  <a href="#" class="list-group-item"><span class="badge">2354</span>برمجه الويب</a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#" class="list-group-item"><span class="badge">5632</span>برمجه الويب</a>
+                <a href="#" class="list-group-item"><span class="badge">885</span>برمجه الويب</a>
+                <a href="#" class="list-group-item"><span class="badge">637</span>برمجه الويب</a>
+                <a href="#" class="list-group-item"><span class="badge">665</span>برمجه الويب</a>
+              </li>
+            </ul>
+        </div>
           </div>
         </div> <!-- row -->
 
@@ -41,9 +53,9 @@
       <script src="<?php echo $js ?>wow.min.js"></script>
       <script>new WOW().init();</script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="<?php echo $js ?>jquery-3.2.1.min.js"></script> 
+      <script src="<?php echo $js ?>jquery-3.2.1.min.js"></script>
       <!-- Latest compiled and minified JavaScript -->
-      <script src="<?php echo $js ?>bootstrap.min.js"></script>      
+      <script src="<?php echo $js ?>bootstrap.min.js"></script>
       <script src="<?php echo $js ?>smooth-scroll.polyfills.min.js"></script>
       <script src="<?php echo $js ?>mixitup.min.js"></script>
       <script src="<?php echo $js ?>plugins.js"></script>

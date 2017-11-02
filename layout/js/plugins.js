@@ -3,14 +3,14 @@
 
 $(document).ready(function(){
     $('.page').css('min-height', $(window).height());
-    $('.cont-us').css('min-height', $(window).height());
+    $('.cont-us').css('min-height', $('.page').height());
 
 		// init SmoothScroll
 		var scroll = new SmoothScroll('a[href*="#"]', {
 
 			// Speed & Easing
 			speed: 800, // Integer. How fast to complete the scroll in milliseconds
-			offset: 200, // Integer or Function returning an integer. How far to offset the       scrolling anchor location in pixels
+			offset: 200, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
 			easing: 'easeInOutCubic', // Easing pattern to use
 
 		});
