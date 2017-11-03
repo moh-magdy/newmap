@@ -1050,11 +1050,21 @@ include 'init.php';
                         <h3>محمد مجدي</h3>
                         <h4>front end dev</h4>
                         <div class="icons">
+                          <a href="https://github.com/moh-magdy">
                           <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://www.facebook.com/moh.mgd">
                           <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://codepen.io/moh-magdy/">
                           <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://linkedin.com/in/mohamed-magdy-0ba450145">
                           <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://google.com/+mohmedmagdi‏">
                           <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+                          </a>
                         </div>
                         </div>
                       </div>
