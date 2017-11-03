@@ -204,7 +204,7 @@ include 'init.php';
                        foreach($webCate as $web){
                          if($web['Approve'] == 1) {
                              ?>
-              <div class="mix col-sm-6 col-md-3 cat-7"><!-- المزيد غرافك -->
+              <div class="mix col-sm-6 col-md-3 cat cat-7"><!-- المزيد غرافك -->
                 <div class="thumbnail text-center">
                    <img src="<?php echo $fileWebimg . $web['Images'] ; ?>" alt="">
                    <div class="caption">

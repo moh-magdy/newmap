@@ -2,8 +2,10 @@
 
 
 $(document).ready(function(){
-    $('.page').css('min-height', $(window).height());
+    $('.page').css('min-height', '900px');
     $('.cont-us').css('min-height', $('.page').height());
+
+
 
 		// init SmoothScroll
 		var scroll = new SmoothScroll('a[href*="#"]', {
