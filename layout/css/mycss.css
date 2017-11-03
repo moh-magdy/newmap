@@ -441,7 +441,11 @@ body {
   color: #fff;
   cursor: pointer
 }
-
+.page .cont-us a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+}
 /* start about us */
 
 /*Color Stars*/
