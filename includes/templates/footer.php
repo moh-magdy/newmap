@@ -61,7 +61,7 @@
       <script src="<?php echo $js ?>wow.min.js"></script>
       <script>new WOW().init();</script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="<?php echo $adminJs ?>jquery-3.2.1.min.js"></script>
+      <script src="<?php echo $js ?>jquery-3.2.1.min.js"></script>
       <!-- Latest compiled and minified JavaScript -->
       <script src="<?php echo $js ?>bootstrap.min.js"></script>
       <script src="<?php echo $js ?>smooth-scroll.polyfills.min.js"></script>
