@@ -1,8 +1,5 @@
 
-
-
 $(document).ready(function(){
-    $('.page').css('min-height', '900px');
     $('.cont-us').css('min-height', $('.page').height());
 
 
@@ -16,8 +13,6 @@ $(document).ready(function(){
 			easing: 'easeInOutCubic', // Easing pattern to use
 
         });
-        
-
 });
 
 
