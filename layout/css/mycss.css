@@ -296,7 +296,7 @@ body {
 
 .page  {
   background: #f3f3f3;
-
+  min-height: 900px;
 }
 .page .back {
   background: #fff
