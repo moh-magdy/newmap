@@ -1037,12 +1037,22 @@ include 'init.php';
                         <img src="layout\imgs\kamal.jpg" alt="..." class="img-rounded">
                         <h3>كمال طبش</h3>
                         <h4>back end dev</h4>
-                        <div class="icons">
+                         <div class="icons">
+                          <a href="https://github.com/Kemal-Helios">
                           <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://www.facebook.com/kamal.tabash">
                           <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://codepen.io/Helios1/">
                           <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://www.linkedin.com/in/kamal-tabsh-b30443147/">
                           <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://plus.google.com/u/0/107973574952468001191">
                           <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+                          </a>
                         </div>
                         </div>
                         <div class="col-sm-12 col-md-6 us">

@@ -10,10 +10,10 @@
 include 'Admin/contact.php';
 
 //Routes
-$func   =   "includes/functions/";
-$tpl    =   "includes/templates/";
-$css    =   "layout/css/";
-$js     =   "layout/js/";
+$func       =   "includes/functions/";
+$tpl        =   "includes/templates/";
+$css        =   "layout/css/";
+$js         =   "layout/js/";
 
 //Include The Important Files
 include     $func   .   "function.php";

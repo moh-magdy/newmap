@@ -67,3 +67,17 @@ function redirectHome($theMsg, $url= null, $seconds = 3) {
             $rows = $getStmt->fetchAll();
             return $rows;
         }
+
+         // Count Numer Of Items Function v2.0
+
+                    function countItems($limitCatID) {
+                
+                    global $contant;
+        
+                    $stmt2 = $contant->prepare("SELECT COUNT(*) FROM websites WHERE cat_ID=$limitCatID");
+                
+                    $stmt2->execute();
+                
+                    return $stmt2->fetchColumn();
+                
+                } 

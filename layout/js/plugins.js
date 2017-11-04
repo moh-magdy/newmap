@@ -15,10 +15,12 @@ $(document).ready(function(){
 			offset: 200, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
 			easing: 'easeInOutCubic', // Easing pattern to use
 
-		});
-
+        });
+        
 
 });
+
+
 /* Function input is empty  v 1.0 */
 function isNotEmpty(caller) {
     "use strict";
